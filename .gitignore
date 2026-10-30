@@ -117,3 +117,15 @@ docs/heb-resources/
 
 # Exports produced by the app. A story archive carries a family's own materials.
 *.zikaron.zip
+
+# ============================================
+# The open example
+# ============================================
+# *.sqlite above keeps every family's catalog out of git. This one exception is the
+# published Helfgott example — a separate, redacted copy, marked inside the file as
+# studio_meta.catalog_kind = 'public-example'. See examples/helfgot-open/README.md.
+!examples/helfgot-open/**
+!examples/helfgot-open/zikaron-metadata.sqlite
+# The un-ignore above is broad enough to re-admit the exFAT sidecar files the rule
+# near the top excludes, so shut them out again inside it.
+examples/helfgot-open/**/._*

@@ -147,6 +147,17 @@ This repository holds the **software**. It does not hold any family's materials.
 The kits under `app/public/resources/` are Zikaron BaSalon's own published materials,
 included here because the site serves them.
 
+### The one exception: `examples/helfgot-open/`
+
+One complete catalog **is** published here, so that the tool can be understood rather
+than only described: the Helfgott family's, with their agreement. It is a separate,
+redacted copy — not the family's working catalog — and says so inside the SQLite file
+itself (`studio_meta.catalog_kind = 'public-example'`). One material, a recording of a
+living relative, was removed before publication along with its catalog row, thumbnail
+and transcript. See [`examples/helfgot-open/README.md`](examples/helfgot-open/README.md).
+
+Those materials are **not** covered by the code licence. They belong to the family.
+
 ---
 
 ## Licence

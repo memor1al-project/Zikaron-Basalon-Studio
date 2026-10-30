@@ -1,0 +1,59 @@
+{
+  "format": "zikaron-story-export",
+  "formatVersion": 1,
+  "exportedAt": "2026-09-22T16:52:08.979Z",
+  "app": {
+    "version": "0.7.0",
+    "build": 5
+  },
+  "story": {
+    "label": "helfgot — open example",
+    "kind": "public-example"
+  },
+  "database": {
+    "filename": "zikaron-metadata.sqlite",
+    "schemaVersion": "5",
+    "revision": "2026-09-22T16:12:57.702Z",
+    "sizeBytes": 1175552
+  },
+  "counts": {
+    "materials": 4,
+    "included": 4,
+    "missing": 0
+  },
+  "bom": [
+    {
+      "key": "local_external%3A1ba36e7d-524a-4c02-a829-1e0e59aad86g.png",
+      "name": "1ba36e7d-524a-4c02-a829-1e0e59aad86g.png",
+      "path": "materials/1ba36e7d-524a-4c02-a829-1e0e59aad86g.png",
+      "sizeBytes": 315620,
+      "source": "external",
+      "included": true
+    },
+    {
+      "key": "local_I212.png",
+      "name": "I212.png",
+      "path": "materials/I212.png",
+      "sizeBytes": 1424043,
+      "source": "folder",
+      "included": true
+    },
+    {
+      "key": "local_I217.png",
+      "name": "I217.png",
+      "path": "materials/I217.png",
+      "sizeBytes": 1474016,
+      "source": "folder",
+      "included": true
+    },
+    {
+      "key": "local_rachel_helfgott_shafrir_The_War_Diary_.pdf",
+      "name": "rachel_helfgott_shafrir_The_War_Diary_.pdf",
+      "path": "materials/rachel_helfgott_shafrir_The_War_Diary_.pdf",
+      "sizeBytes": 402036,
+      "source": "folder",
+      "included": true
+    }
+  ],
+  "note": "Published as an open example with the family's agreement. One material — a recording of a living relative — was removed from this export along with its catalog row, its thumbnail and its transcript."
+}
