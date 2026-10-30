@@ -1,0 +1,103 @@
+{
+  "source": "https://www.zikaronbasalon.com/en/resource-centre/",
+  "fetched": "2026-08-23",
+  "note": "Index of the Zikaron BaSalon public resource centre, for later Collection/Presentation wizard automation. Only Zikaron BaSalon's own PDFs were mirrored locally. USC Shoah Foundation testimony videos are third-party copyrighted material and are NOT downloaded here — only referenced by link. Any use of this content in automation should still confirm current permissions with Zikaron BaSalon before ingestion into a production pipeline.",
+  "resources": [
+    {
+      "title": "Speakers Kit",
+      "type": "pdf_guide",
+      "category": "Resources for Speakers",
+      "rights_holder": "Zikaron BaSalon",
+      "source_url": "https://www.zikaronbasalon.com/wp-content/uploads/2026/02/Speakers-kit-english.pdf",
+      "local_path": "pdfs/speakers-kit-english.pdf",
+      "downloaded": true
+    },
+    {
+      "title": "It's on Us",
+      "type": "pdf_guide",
+      "category": "Resources for Hosts",
+      "rights_holder": "Zikaron BaSalon",
+      "source_url": "https://www.zikaronbasalon.com/wp-content/uploads/2025/04/postcard-18x18-2025-5.pdf",
+      "local_path": "pdfs/its-on-us-postcard.pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Our Stories: Community Gathering",
+      "type": "pdf_guide",
+      "category": "Resources for Hosts",
+      "rights_holder": "Zikaron BaSalon",
+      "source_url": "https://www.zikaronbasalon.com/wp-content/uploads/2025/04/Our-Stories-Community-Gathering.pdf",
+      "local_path": "pdfs/our-stories-community-gathering.pdf",
+      "downloaded": true
+    },
+    {
+      "title": "Zikaron Basalon at Home",
+      "type": "pdf_guide",
+      "category": "Resources for Hosts",
+      "rights_holder": "Zikaron BaSalon",
+      "source_url": "https://www.zikaronbasalon.com/wp-content/uploads/2025/11/Zikaron_at_home-2025-1.pdf",
+      "local_path": "pdfs/zikaron-basalon-at-home.pdf",
+      "downloaded": true
+    },
+    {
+      "title": "The Story of Yehudah Bakon",
+      "type": "video_testimony",
+      "category": "Testimonies, Life Stories",
+      "rights_holder": "USC Shoah Foundation",
+      "source_url": "https://sfi.usc.edu/video/yehuda-bakon",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Third-party archive; not mirrored. Would need separate licensing/API access from USC Shoah Foundation."
+    },
+    {
+      "title": "The Story of Erika Gold",
+      "type": "video_testimony",
+      "category": "Testimonies, Life Stories",
+      "rights_holder": "USC Shoah Foundation",
+      "source_url": "https://sfi.usc.edu/video/erika-gold",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Third-party archive; not mirrored. Would need separate licensing/API access from USC Shoah Foundation."
+    },
+    {
+      "title": "The Story of Edith Eger",
+      "type": "video_testimony",
+      "category": "Testimonies, Life Stories",
+      "rights_holder": "USC Shoah Foundation",
+      "source_url": "https://sfi.usc.edu/video/dr-edith-eger",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Third-party archive; not mirrored. Would need separate licensing/API access from USC Shoah Foundation."
+    },
+    {
+      "title": "The Story of Kurt Thomas",
+      "type": "video_testimony",
+      "category": "Testimonies, Life Stories",
+      "rights_holder": "USC Shoah Foundation",
+      "source_url": "https://sfi.usc.edu/video/kurt-thomas",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Third-party archive; not mirrored. Would need separate licensing/API access from USC Shoah Foundation."
+    },
+    {
+      "title": "The Story of Agnes Adachi",
+      "type": "video_testimony",
+      "category": "Testimonies, Life Stories",
+      "rights_holder": "USC Shoah Foundation",
+      "source_url": "https://sfi.usc.edu/video/agnes-adachi",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Third-party archive; not mirrored. Would need separate licensing/API access from USC Shoah Foundation."
+    },
+    {
+      "title": "Build Your Personal Zikaron BaSalon",
+      "type": "interactive_tool",
+      "category": "Salon Builder",
+      "rights_holder": "Zikaron BaSalon (built with Microsoft)",
+      "source_url": "https://builder.zikaronbasalon.com/?utm_source=website&utm_medium=website&utm_campaign=salon-builder-website-eng&utm_id=salon+builder+en",
+      "local_path": null,
+      "downloaded": false,
+      "note": "Live web app, not a static file — reference link only. Worth investigating directly: an AI salon-builder already exists for this org, built with Microsoft, and may overlap with the Presentation Wizard scope."
+    }
+  ]
+}

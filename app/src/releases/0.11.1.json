@@ -1,0 +1,10 @@
+{
+  "version": "0.11.1",
+  "date": "2026-10-26",
+  "title": "Registration in Hebrew",
+  "changes": [
+    "The registration page — the role you are here as, the language you prefer, your relationship to the story — now reads in Hebrew under /he, along with the \"Optional\" and file-count notes in the sidebar.",
+    "The preferred-language choice finally does something: it starts set to the language you are already reading, and choosing the other one moves you into that language when you continue.",
+    "One word is marked for the organisation to confirm: מארח/ת, for the person who runs an evening at home."
+  ]
+}

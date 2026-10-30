@@ -1,0 +1,10 @@
+{
+  "version": "0.11.12",
+  "date": "2026-10-27",
+  "title": "A guide inside the Studio",
+  "changes": [
+    "A tutorial at /tutorial, in the sidebar beside the organisation's kits: twelve chapters in Hebrew that follow one family — the Helfgotts — from connecting a folder through to a finished presentation.",
+    "Every stage is shown with a mock of the screen it describes, drawn from the app's own colours and layout rather than captured as a picture, so the guide cannot drift out of step with the interface.",
+    "Issue reporting is chapter 11, so there is one place to send someone rather than two."
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "videoId": "PmQbsfV1FTE",
+  "title": "סיפורה של אסתר דובלין",
+  "generatedAt": "2026-09-11T01:22:06.678Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מקיף את שנות ה-30 לפני מלחמת העולם השנייה, דרך החיים בגטו לודז' ואושוויץ, ועד לחיים המאוחרים בישראל.",
+          "sourceSegmentIds": [
+            "seg-1-childhood",
+            "seg-2-ghetto",
+            "seg-3-auschwitz",
+            "seg-4-liberation"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "שמה המקורי היה ג'וניה, וכיום היא נקראת אסתר.",
+          "sourceSegmentIds": [
+            "seg-1-childhood",
+            "seg-4-liberation"
+          ]
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "היא נולדה בעיר הטקסטיל הפולנית לודז'.",
+          "sourceSegmentIds": [
+            "seg-1-childhood"
+          ]
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "אמה אהבה ספרות והקריאה לה סיפורים. אביה היה חייט סוציאליסט שתפר שלייקס בבית, חובב פילוסופיה שנהג לשיר ולהתגאות בבתו היחידה.",
+          "sourceSegmentIds": [
+            "seg-1-childhood"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "היא גדלה בבית ציוני וסוציאליסטי, והצטרפה כבר בכיתה ג' לתנועת השומר הצעיר. בבית הספר שמו דגש על חינוך לציונות, קשר עם ארץ ישראל ושירת שירים בעברית.",
+          "sourceSegmentIds": [
+            "seg-1-childhood"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "עם פרוץ המלחמה אביה ברח לרוסיה. אסתר ואמה עברו בינואר 1940 לגטו לודז', ובהמשך גורשו יחד למחנה ההשמדה אושוויץ.",
+          "sourceSegmentIds": [
+            "seg-2-ghetto",
+            "seg-3-auschwitz"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "פעילות תנועת השומר הצעיר בגטו, השירים והסיפורים על גיבורים כמו יוסף טרומפלדור, נתנו לה ולנוער תקווה ומשמעות לחיים.",
+          "sourceSegmentIds": [
+            "seg-3-auschwitz"
+          ]
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "אמה של אסתר נאלצה לקבל החלטה קשה כאשר יצחק הזהיר אותם מפני השילוחים למוות והציע להן להתחבא. היא בחרה שלא להאמין לאזהרה ולא להסתתר, וכך הן נשלחו לאושוויץ.",
+          "sourceSegmentIds": [
+            "seg-3-auschwitz"
+          ]
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "בגטו, אנשים טובים עזרו לאסתר ולאמה לשרוד את החורף הקשה כשהביאו להן מיטה ותנור קטן. לאחר המלחמה, מטפלות בבית היתומים עזרו לה להשתקם ולהשלים את לימודיה.",
+          "sourceSegmentIds": [
+            "seg-2-ghetto",
+            "seg-4-liberation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "אסתר מציינת שלמדה מזמן המלחמה כמה חשובה עזרה הדדית. היא מדגישה שאסור לקחת מאף אחד את כבודו, ושכבוד האדם חשוב יותר מרעב ומקור.",
+          "sourceSegmentIds": [
+            "seg-2-ghetto"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "ילדות בלודז' והשומר הצעיר",
+      "when": "לפני 1939",
+      "description": "אסתר (ג'וניה) גדלה בלודז' להורים ציוניים, סופגת תרבות ושירה, ומצטרפת לתנועת השומר הצעיר.",
+      "segmentId": "seg-1-childhood"
+    },
+    {
+      "id": "event-2",
+      "title": "פרוץ המלחמה והחיים בגטו",
+      "when": "1939-1940",
+      "description": "הגרמנים כובשים את לודז', האב בורח לרוסיה, ואסתר ואמה עוברות לגטו שם הן מתמודדות עם רעב וקור.",
+      "segmentId": "seg-2-ghetto"
+    },
+    {
+      "id": "event-3",
+      "title": "פעילות בתנועה וגירוש לאושוויץ",
+      "when": "",
+      "description": "חברי השומר הצעיר פועלים בסתר בגטו. למרות אזהרותיו של יצחק, אסתר ואמה נשלחות לאושוויץ, שם הן מופרדות לתמיד בסלקציה.",
+      "segmentId": "seg-3-auschwitz"
+    },
+    {
+      "id": "event-4",
+      "title": "שחרור, שיקום ואהבה מאוחרת",
+      "when": "1945 ואילך",
+      "description": "לאחר השחרור אסתר משתקמת בבית יתומים ולומדת חינוך מיוחד. היא עולה לישראל ב-1957, ובשנים המאוחרות מתאחדת שוב עם חבר נעוריה יצחק.",
+      "segmentId": "seg-4-liberation"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

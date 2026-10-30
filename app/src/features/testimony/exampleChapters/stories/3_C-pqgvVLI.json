@@ -1,0 +1,156 @@
+{
+  "videoId": "3_C-pqgvVLI",
+  "title": "Hana Gefrit, a Holocaust survivor, meets with children from Kibbutz Mefalsim.",
+  "generatedAt": "2026-09-11T01:17:06.505Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "העדות מתייחסת לתקופת הילדות בקיבוץ צרעה, מגיל ארבע עד עשר, ולתקופה של שנתיים בהן חנה הסתתרה בארון.",
+          "sourceSegmentIds": [
+            "seg-1-tzora",
+            "seg-2-hiding"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "המסר המרכזי הוא של תקווה, חוסן והיכולת להתגבר. חנה מדגישה שיש עתיד ויש חיים אחרי האובדן.",
+          "sourceSegmentIds": [
+            "seg-2-hiding",
+            "seg-3-resilience"
+          ]
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "חנה מסבירה שהיא באה לדבר ולשתף את סיפורה כדי להראות שגם כשפתאום מאבדים את הבית והכל נעלם, עדיין יש עתיד.",
+          "sourceSegmentIds": [
+            "seg-2-hiding"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "היא רוצה שהדורות הבאים ידעו שיש חיים אחרי זה, ושאפשר להמשיך הלאה למרות הכל.",
+          "sourceSegmentIds": [
+            "seg-2-hiding"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "המאזינים יכולים לשאוב השראה מהיכולת להתגבר. המבט בעיניה של חנה, שראו דברים קשים, נותן כוח ומחבר לחוסן של הדור הנוכחי בישראל.",
+          "sourceSegmentIds": [
+            "seg-3-resilience"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "ילדות בקיבוץ צרעה",
+      "when": "גיל 4 עד 10",
+      "description": "הדוברות מעלות זיכרונות מילדותן המשותפת בקיבוץ צרעה, שם גדלו יחד בקבוצת תלם.",
+      "segmentId": "seg-1-tzora"
+    },
+    {
+      "id": "event-2",
+      "title": "אובדן הבית ומסתור בארון",
+      "when": "",
+      "description": "חנה מתארת כיצד ביום אחד איבדה את ביתה ואת כל מה שהיה לה. היא מספרת שהסתתרה בתוך ארון במשך שנתיים.",
+      "segmentId": "seg-2-hiding"
+    },
+    {
+      "id": "event-3",
+      "title": "השראה וכוח הישרדות",
+      "when": "",
+      "description": "דוברת נוספת מתארת את ההשראה שהיא שואבת מהחוסן של חנה, ומקשרת בין המבט בעיניה לבין בני הדור הנוכחי בישראל.",
+      "segmentId": "seg-3-resilience"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

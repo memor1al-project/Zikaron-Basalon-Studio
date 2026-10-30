@@ -1,0 +1,9 @@
+{
+  "version": "0.11.10",
+  "date": "2026-10-27",
+  "title": "A button to turn reviewing on",
+  "changes": [
+    "Issue reporting can now be switched on from the version panel — click the version number at the foot of the sidebar. No URL to remember, and it takes effect without a reload.",
+    "It stays behind that panel rather than sitting on the page, so a family gathering a relative's story never meets it by accident. The ?report=1 link still works for sending a reviewer straight in."
+  ]
+}

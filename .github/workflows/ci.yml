@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Nothing here needs write access or any secret: the build runs against .env.example
+# values and never touches Firebase.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  app:
+    name: Web app
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - run: npm ci
+        working-directory: app
+
+      - name: Type-check and build
+        working-directory: app
+        # The build needs the VITE_* names to exist, not to be real: the bundle only
+        # reads them, and nothing in CI talks to Firebase.
+        run: |
+          cp .env.example .env.local
+          npm run build
+
+      - name: Lint
+        working-directory: app
+        run: npm run lint
+
+  functions:
+    name: Functions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: functions/package-lock.json
+
+      - run: npm ci
+        working-directory: functions
+
+      - run: npm run build
+        working-directory: functions
+
+  translations:
+    name: Translation catalog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Reports rather than gates. A half-translated screen is better live than blocked,
+      # and the step summary says plainly how much is still English.
+      - name: Rebuild the catalog
+        run: node scripts/i18n-catalog.mjs | tee /tmp/i18n.txt
+
+      - name: Summarise
+        if: always()
+        run: |
+          {
+            echo '### Translation coverage'
+            echo
+            echo '```'
+            cat /tmp/i18n.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if the catalog is stale
+        run: |
+          if ! git diff --quiet -- docs/i18n; then
+            echo "docs/i18n is out of date — run: node scripts/i18n-catalog.mjs" >&2
+            git diff --stat -- docs/i18n >&2
+            exit 1
+          fi
+
+  secrets:
+    name: No secrets committed
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # A cheap backstop for the ignore rules, not a substitute for them. Catches the
+      # common shapes: Google keys, OpenAI/Anthropic keys, PEM blocks, AWS access keys,
+      # and any .env that is not a template.
+      - name: Scan the tree
+        run: |
+          set -o pipefail
+          if git ls-files | grep -E '(^|/)\.env($|\.)' | grep -v '\.env\.example$'; then
+            echo "::error::a .env file is tracked — it must be gitignored" >&2
+            exit 1
+          fi
+
+          if git grep -nIE 'AIza[0-9A-Za-z_-]{30,}|sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|ghp_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}|BEGIN [A-Z ]*PRIVATE KEY' \
+               -- . ':(exclude)*.example' ':(exclude)SECURITY.md' ':(exclude).github/workflows/*'; then
+            echo "::error::something key-shaped is committed — rotate it, then remove it" >&2
+            exit 1
+          fi
+
+          echo "clean"

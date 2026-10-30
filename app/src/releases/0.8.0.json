@@ -1,0 +1,11 @@
+{
+  "version": "0.8.0",
+  "date": "2026-10-21",
+  "title": "Visitor statistics",
+  "changes": [
+    "Google Analytics records which pages are visited, so the team can see which testimonies people actually watch.",
+    "Page views are sent on every navigation, not only the first — without that, a single-page app reports almost nothing about where visitors go.",
+    "Ad personalisation and cross-device identity are switched off: these pages are named survivors testimonies read by visitors who have no account, and counts answer the question without building profiles.",
+    "Nothing is recorded while running the app locally, so development traffic stays out of the reports."
+  ]
+}

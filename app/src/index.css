@@ -1,0 +1,1006 @@
+:root {
+  /* The nav rail's width, shared so anything that has to sit clear of it — the issue
+     reporter's button, for one — cannot drift out of step with the sidebar itself. */
+  --rail-width: 240px;
+  --bg-cream: oklch(97% 0.014 75);
+  --bg-cream-2: oklch(94.5% 0.02 72);
+  --ink: oklch(24% 0.025 50);
+  --ink-soft: oklch(45% 0.02 55);
+  --accent: oklch(60% 0.13 45);
+  --accent-deep: oklch(46% 0.12 42);
+  --accent-soft: oklch(91% 0.035 55);
+  --sage: oklch(58% 0.05 140);
+  --sage-soft: oklch(92% 0.02 140);
+  --line: oklch(85% 0.014 70);
+  --card: oklch(99% 0.006 75);
+
+  color-scheme: light;
+  color: var(--ink);
+  background: var(--bg-cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg-cream);
+  color: var(--ink);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Domine", Georgia, "Times New Roman", serif;
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+button:disabled {
+  cursor: default;
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg-cream);
+  color: var(--ink);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* Primary pill CTA — used across sign-in, profile, and wizard actions */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  background: var(--accent-deep);
+  color: var(--bg-cream);
+  border: none;
+  border-radius: 26px;
+  padding: 13px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px oklch(30% 0.03 50 / 0.15);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent);
+  box-shadow: 0 6px 18px -6px oklch(46% 0.12 42 / 0.55);
+  transform: translateY(-1px);
+}
+.btn-primary:disabled {
+  opacity: 0.65;
+}
+
+/* Secondary outline button */
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  padding: 12px 22px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* Selectable option card (roles, providers, etc.) */
+.option-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg-cream);
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.option-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px -10px oklch(30% 0.03 50 / 0.4);
+}
+.option-card[data-selected="true"] {
+  border-color: var(--accent);
+  border-width: 1.5px;
+  background: var(--accent-soft);
+}
+
+.card-enter {
+  animation: card-enter 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.flicker {
+  animation: flicker 3.2s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+@keyframes flicker {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.05) rotate(-2deg);
+  }
+  50% {
+    transform: scale(0.97) rotate(1deg);
+  }
+  75% {
+    transform: scale(1.03) rotate(-1deg);
+  }
+}
+
+/* Testimony Navigator, full-page layout: video beside a rail of chapters. Below 1100px
+   there isn't room for both, so the rail drops underneath and the page reads top-to-bottom. */
+.testimony-wide {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  gap: 24px;
+  align-items: start;
+}
+
+.testimony-rail {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100svh - 48px);
+  overflow-y: auto;
+  /* The chapter buttons carry a coloured left edge and a focus ring — without this the
+     scroll container would clip both. */
+  padding: 4px;
+}
+
+@media (max-width: 1100px) {
+  .testimony-wide {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .testimony-rail {
+    position: static;
+    max-height: none;
+  }
+}
+
+.spinner {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  opacity: 0.9;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Print.
+
+   The Summary page doubles as the family's keepsake booklet — it already gathers
+   the subject, the family tree, the map, the timeline, the photographs and every
+   answered question into one document-shaped page, so printing it is a matter of
+   taking the app's furniture away rather than building a second layout.
+
+   Going through the browser's own print-to-PDF keeps the family tree as vector
+   (it's an SVG, so it stays sharp at any size) and adds no dependency.
+   --------------------------------------------------------------------------- */
+@media print {
+  @page {
+    margin: 16mm 14mm;
+  }
+
+  /* The photographs and the tree are the point of the booklet, so ask for colour
+     rather than letting the browser strip backgrounds to save ink. */
+  html,
+  body {
+    background: #fff !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* App chrome means nothing on paper. */
+  aside,
+  .gb-root,
+  .no-print,
+  /* Zoom buttons on a printed map are the clearest tell that a page is a
+     screenshot of software. The attribution control stays: OpenStreetMap's
+     licence requires it wherever their tiles are reproduced. */
+  .leaflet-control-zoom {
+    display: none !important;
+  }
+
+  /* The centred reading column becomes the sheet itself. */
+  .wizard-page {
+    display: block !important;
+    padding: 0 !important;
+  }
+  .wizard-page > * {
+    max-width: none !important;
+  }
+
+  /* A transform on an ancestor breaks pagination — content gets clipped at the
+     page boundary instead of flowing onto the next sheet. The entrance animation
+     leaves one permanently applied (fill-mode "both"), so it has to go. */
+  .card-enter {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  /* Cards are screen scaffolding; on paper the content just flows. */
+  .print-card {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 0 20pt !important;
+  }
+
+  /* Keep a heading with what it introduces, and never split one moment — or one
+     person's portrait and name — across a page turn.
+     .print-head wraps a title *and* its subtitle: break-after on the h2 alone only
+     holds it to the subtitle, and the page then breaks between that and the content,
+     stranding "Timeline" at the foot of the previous sheet. */
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  .print-head {
+    break-after: avoid;
+  }
+  .print-keep {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Hebrew / right-to-left.
+
+   Most of the app is laid out with flexbox and logical properties, which mirror
+   on their own. These are the few places a physical direction was hard-coded.
+   --------------------------------------------------------------------------- */
+[dir="rtl"] aside {
+  border-right: none;
+  border-left: 1px solid var(--line);
+}
+
+/* The chapter rail sits beside the video; in Hebrew it belongs on the other side. */
+[dir="rtl"] .testimony-wide {
+  direction: rtl;
+}
+
+/* Numbers, filenames and paths stay left-to-right inside Hebrew text. */
+[dir="rtl"] code,
+[dir="rtl"] .ltr {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: left;
+}
+
+/* The site is translated a screen at a time, so a Hebrew page legitimately contains
+   English that has no translation yet. Inside dir="rtl" the bidi algorithm gives that
+   English sentence the paragraph's direction, which throws its trailing "?" or "." to
+   the far left — "?Where does this live" — and reads as a bug rather than as a gap.
+
+   `plaintext` gives each block its own direction, taken from its first strong
+   character: Hebrew blocks stay RTL, English blocks render LTR and keep their
+   punctuation. Scoped to the elements that carry sentences, so flex rows and the
+   nav rail keep aligning with the page. */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] p,
+[dir="rtl"] li,
+[dir="rtl"] blockquote,
+[dir="rtl"] figcaption {
+  unicode-bidi: plaintext;
+}
+
+/* ---------------------------------------------------------------------------
+   Reporting an issue.
+
+   A reviewer points at something and says what is wrong with it. The outlines
+   are deliberately loud — while picking, the only question that matters is
+   which element is about to be reported.
+   --------------------------------------------------------------------------- */
+body.issue-picking,
+body.issue-picking * {
+  cursor: crosshair !important;
+}
+
+body.issue-picking .issue-hover {
+  outline: 2px dashed var(--accent-deep);
+  outline-offset: 2px;
+  background: oklch(70% 0.12 40 / 0.08);
+}
+
+.issue-selected {
+  outline: 2px solid var(--accent-deep) !important;
+  outline-offset: 2px;
+}
+
+.issue-bar {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  z-index: 95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 9px 16px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--bg-cream);
+  background: var(--accent-deep);
+}
+
+.issue-bar button {
+  border: 1px solid oklch(100% 0 0 / 0.5);
+  background: transparent;
+  color: inherit;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Bottom-left, out of the way of the wizard's own forward/back buttons, which sit
+   bottom-right. Mirrored in Hebrew like everything else: inset-inline-start. */
+.issue-fab {
+  position: fixed;
+  bottom: 18px;
+  inset-inline-start: 18px;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Bottom-left of the content area rather than of the window: the window's own corner
+   is the sidebar footer, where the language switch and the version number live. */
+body.has-rail .issue-fab {
+  inset-inline-start: calc(var(--rail-width) + 18px);
+}
+
+.issue-fab-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 15px;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 20px -8px oklch(30% 0.03 50 / 0.45);
+}
+
+.issue-fab-main:hover,
+.issue-fab-main[aria-pressed="true"] {
+  color: var(--accent-deep);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.issue-fab-count {
+  min-width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  border: none;
+  background: var(--accent-deep);
+  color: var(--bg-cream);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.issue-form,
+.issue-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: oklch(24% 0.025 50 / 0.42);
+}
+
+.issue-form-card,
+.issue-panel-card {
+  width: 100%;
+  max-width: 520px;
+  max-height: calc(100svh - 48px);
+  overflow-y: auto;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: 0 24px 60px -30px oklch(30% 0.03 50 / 0.5);
+}
+
+.issue-panel-card {
+  max-width: 640px;
+}
+
+.issue-form-card h2,
+.issue-panel-head h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.issue-form-target {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.issue-kinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.issue-kinds button {
+  padding: 6px 13px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: var(--bg-cream);
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.issue-kinds button.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+.issue-form-card textarea {
+  width: 100%;
+  font: inherit;
+  font-size: 13.5px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg-cream);
+  color: var(--ink);
+  resize: vertical;
+}
+
+.issue-form-actions,
+.issue-panel-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.issue-panel-actions {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.issue-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.issue-panel-note {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+
+.issue-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.issue-list li {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: var(--bg-cream);
+}
+
+.issue-list-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.issue-list-head code {
+  flex: 1;
+  min-width: 0;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.issue-list-head button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.issue-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 9px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  white-space: nowrap;
+}
+
+.issue-list-note {
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.issue-list-where {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+}
+
+.issue-panel-label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 600;
+  margin-top: 18px;
+}
+
+.issue-panel-label input {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.issue-panel-clear {
+  margin-inline-start: auto;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--accent-deep);
+  cursor: pointer;
+}
+
+.issue-panel-off {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.issue-panel-off button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: var(--accent-deep);
+  cursor: pointer;
+}
+
+/* The reporter is a reviewing tool, never part of what a family prints or presents. */
+@media print {
+  .issue-fab,
+  .issue-bar,
+  .issue-form,
+  .issue-panel {
+    display: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   The tutorial.
+
+   Its mock screens recreate the Studio's own chrome at about two-thirds scale,
+   so a reader can match what they are looking at to what is in front of them.
+   Everything is drawn from the same tokens as the real thing, which is the
+   point: a mock that drifts from the interface is worse than no mock at all.
+   --------------------------------------------------------------------------- */
+.tut { max-width: 860px; }
+
+.tut h2 { font-size: 23px; margin: 0; }
+.tut h3 { font-size: 17px; margin: 28px 0 6px; }
+.tut p { margin: 0 0 15px; }
+.tut ul, .tut ol { margin: 0 0 15px; padding-inline-start: 24px; }
+.tut li { margin-bottom: 6px; }
+.tut code {
+  font-size: 0.9em;
+  background: var(--bg-cream-2);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.tut-toc {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+  padding: 20px 24px;
+  margin: 28px 0 10px;
+}
+.tut-toc ol { margin: 0; padding-inline-start: 20px; }
+.tut-toc li { margin-bottom: 4px; font-size: 14.5px; }
+
+.tut-chapter {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 56px 0 4px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+  /* Clears the sticky-free layout when jumping from the contents list. */
+  scroll-margin-top: 20px;
+}
+.tut-num {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--accent-deep);
+  color: var(--bg-cream);
+  font-family: "Domine", Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.tut-sub { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 18px; padding-inline-start: 52px; }
+
+.tut-shot {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-cream);
+  margin: 16px 0 6px;
+  box-shadow: 0 12px 36px -24px oklch(30% 0.03 50 / 0.65);
+}
+.tut-cap { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 24px; }
+
+.tut-app { display: flex; min-height: 230px; }
+.tut-rail {
+  width: 178px;
+  flex-shrink: 0;
+  background: var(--bg-cream-2);
+  border-inline-end: 1px solid var(--line);
+  padding: 13px 0;
+  display: flex;
+  flex-direction: column;
+}
+.tut-logo { padding: 0 13px 9px; }
+.tut-logo b { font-family: "Domine", Georgia, serif; font-size: 13.5px; font-weight: 600; display: block; }
+.tut-logo span { font-size: 8px; letter-spacing: 0.06em; color: var(--ink-soft); }
+.tut-step {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 13px;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+}
+.tut-step i { font-style: normal; font-size: 10px; display: block; font-weight: 400; }
+.tut-dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--bg-cream);
+  border: 1px solid var(--line);
+}
+.tut-step.is-done .tut-dot,
+.tut-step.is-now .tut-dot { background: var(--accent-deep); border-color: var(--accent-deep); }
+.tut-step.is-now {
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 700;
+  border-radius: 7px;
+  margin: 0 6px;
+  padding: 6px 7px;
+}
+.tut-railfoot { margin-top: auto; padding: 9px 13px 0; font-size: 10.5px; color: var(--ink-soft); }
+.tut-version {
+  display: inline-block;
+  font-size: 10px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  padding: 2px 8px;
+  background: var(--card);
+  margin-top: 4px;
+}
+.tut-version.is-hot {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+  background: var(--accent-soft);
+  font-weight: 700;
+}
+
+.tut-canvas { flex: 1; padding: 17px; position: relative; min-width: 0; }
+.tut-canvas h4 { font-size: 15px; margin: 0 0 5px; }
+.tut-canvas > p { font-size: 11.5px; color: var(--ink-soft); margin: 0 0 11px; }
+.tut-canvas.is-dim { background: oklch(24% 0.025 50 / 0.34); }
+
+.tut-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 11px; flex-wrap: wrap; }
+.tut-tabs span { font-size: 10.5px; padding: 5px 8px; color: var(--ink-soft); }
+.tut-tabs span.is-on {
+  color: var(--accent-deep);
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent-deep);
+  margin-bottom: -1px;
+}
+
+.tut-card {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--card);
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  font-size: 11.5px;
+}
+.tut-card b { font-size: 12.5px; display: block; margin-bottom: 3px; }
+.tut-card.is-answered { background: oklch(91% 0.035 55 / 0.45); }
+.tut-card.is-resume { border-color: var(--accent); background: var(--accent-soft); }
+
+.tut-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+.tut-tile { border: 1px solid var(--line); border-radius: 8px; background: var(--card); padding: 7px; font-size: 9.5px; }
+.tut-thumb {
+  height: 44px;
+  border-radius: 5px;
+  background: var(--bg-cream-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-soft);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.tut-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.tut-tag {
+  display: inline-block;
+  font-size: 8.5px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  margin-top: 3px;
+}
+.tut-tag.is-sage { background: var(--sage-soft); color: var(--sage); }
+
+.tut-faces { display: flex; gap: 10px; margin-bottom: 11px; flex-wrap: wrap; }
+.tut-face { text-align: center; font-size: 9.5px; color: var(--ink-soft); }
+.tut-ring {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: var(--bg-cream-2);
+  margin: 0 auto 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Domine", Georgia, serif;
+  color: var(--accent-deep);
+}
+.tut-face.is-on .tut-ring { border-color: var(--accent-deep); }
+
+.tut-search {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--card);
+  padding: 6px 10px;
+  font-size: 10.5px;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.tut-tree { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; }
+.tut-treerow { display: flex; gap: 20px; align-items: flex-end; }
+.tut-node { text-align: center; font-size: 9.5px; }
+.tut-node .tut-ring { width: 32px; height: 32px; font-size: 11px; }
+.tut-node.is-subject .tut-ring { border-color: var(--accent-deep); box-shadow: 0 0 0 3px var(--accent-soft); }
+.tut-rung { width: 60%; height: 1px; background: var(--line); margin: 3px 0; }
+.tut-partner { width: 46px; border-top: 1.5px dashed var(--accent); margin: 0 4px 16px; }
+
+.tut-fab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 600;
+  box-shadow: 0 6px 18px -8px oklch(30% 0.03 50 / 0.45);
+}
+.tut-fab.is-on { color: var(--accent-deep); border-color: var(--accent); background: var(--accent-soft); }
+.tut-fabcount {
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: var(--accent-deep);
+  color: var(--bg-cream);
+  font-size: 10.5px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.tut-fabrow { position: absolute; bottom: 12px; inset-inline-start: 12px; display: flex; gap: 5px; align-items: center; }
+.tut-topbar {
+  background: var(--accent-deep);
+  color: var(--bg-cream);
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 12px;
+}
+.tut-picked { outline: 2px dashed var(--accent-deep); outline-offset: 2px; background: oklch(70% 0.12 40 / 0.1); }
+
+.tut-panel { border: 1px solid var(--line); border-radius: 11px; background: var(--card); padding: 14px; font-size: 11.5px; }
+.tut-panel h5 { font-family: "Domine", Georgia, serif; font-size: 13.5px; margin: 0 0 4px; font-weight: 600; }
+.tut-chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+.tut-chip {
+  font-size: 10.5px;
+  padding: 3px 10px;
+  border-radius: 15px;
+  border: 1px solid var(--line);
+  background: var(--bg-cream);
+  color: var(--ink-soft);
+}
+.tut-chip.is-on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-deep); font-weight: 700; }
+.tut-textarea {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-cream);
+  padding: 7px 9px;
+  font-size: 11px;
+  min-height: 40px;
+}
+.tut-btnrow { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+.tut-btn {
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 18px;
+  padding: 5px 13px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+}
+.tut-btn.is-primary { background: var(--accent-deep); border-color: var(--accent-deep); color: var(--bg-cream); }
+
+.tut pre {
+  background: var(--bg-cream-2);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 13px 15px;
+  overflow-x: auto;
+  font-size: 12.5px;
+  line-height: 1.6;
+  direction: ltr;
+  text-align: left;
+}
+.tut pre code { background: none; padding: 0; }
+
+.tut-note {
+  border-inline-start: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 9px 9px 0;
+  padding: 13px 16px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.tut-note.is-sage { border-color: var(--sage); background: var(--sage-soft); }
+.tut-note p:last-child { margin-bottom: 0; }
+
+.tut table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+.tut th, .tut td { text-align: start; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tut th { font-weight: 700; font-size: 13px; color: var(--ink-soft); }
+
+@media (max-width: 640px) {
+  .tut-rail { width: 120px; }
+  .tut-step { font-size: 10px; }
+  .tut-sub { padding-inline-start: 0; }
+}

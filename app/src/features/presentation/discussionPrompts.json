@@ -1,0 +1,33 @@
+{
+  "source": "ערכת אירוח דיגיטלית — זיכרון בסלון (docs/heb-resources). The organisation's own questions for the 'future' part of the evening, quoted as written.",
+  "groups": [
+    {
+      "id": "opening",
+      "title": "Questions to open the conversation",
+      "titleHe": "שאלות שיעזרו לפתוח את השיחה",
+      "note": "Ask them, and let the conversation go where it goes.",
+      "noteHe": "אנחנו מציעים לשאול את השאלות ולעורר שיחה חופשית.",
+      "prompts": [
+        { "he": "למה הגעתם לכאן הערב?", "en": "Why did you come here tonight?" },
+        { "he": "האם יום השואה במתכונתו הנוכחית יישאר רלוונטי גם אחרי שאחרוני השורדים ילכו לעולמם?", "en": "Will Holocaust Remembrance Day, as it is now, still mean something once the last survivors are gone?" },
+        { "he": "האם זיכרון השואה הוא ערך כשלעצמו?", "en": "Is remembering the Holocaust a value in itself?" },
+        { "he": "מה האחריות שלי בשימור זיכרון השואה?", "en": "What is my responsibility in keeping this memory?" },
+        { "he": "עד כמה וכיצד משפיע זיכרון השואה על הערכים שמובילים אותנו, כיחידים וכחברה?", "en": "How much, and how, does this memory shape the values we live by — as people and as a society?" },
+        { "he": "האם יום השואה נועד רק כדי לזכור את זוועות השואה?", "en": "Is this day only for remembering the horror?" },
+        { "he": "מה הלקחים שלמדנו מהשואה?", "en": "What have we learned from the Holocaust?" },
+        { "he": "מה התפקיד של זיכרון השואה בחיינו?", "en": "What part does this memory play in our lives?" }
+      ]
+    },
+    {
+      "id": "takeHome",
+      "title": "A question to take home",
+      "titleHe": "שאלה ללכת איתה הביתה",
+      "note": "For the end of the evening. It doesn't have to be answered — it can be left open.",
+      "noteHe": "לסיכום הערב נרצה שהאורחים שלנו יצאו עם מחשבות להמשך. לא חייבים לענות על השאלה במפגש, אפשר להשאיר אותה פתוחה.",
+      "prompts": [
+        { "he": "האם זה כל כך נורא אם נשכח את השואה?", "en": "Would it really be so terrible if we forgot?" },
+        { "he": "איזה מסר אני מאמץ מהמפגש הזה?", "en": "What am I taking from this evening?" }
+      ]
+    }
+  ]
+}

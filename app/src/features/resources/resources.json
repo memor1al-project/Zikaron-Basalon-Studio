@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hosting-kit",
+    "title": "ערכת אירוח",
+    "titleEn": "Hosting kit",
+    "category": "hosts",
+    "summary": "כל מה שצריך כדי לבנות ערב זיכרון בסלון מתחילתו ועד סופו — מבנה המפגש, תפקיד המארח וההכנה מראש. בנוסף לערכה מצורף ספרון תוכן שנכתב בשיתוף יד ושם, עם מקורות, שאלות ורעיונות לשיח.",
+    "file": "/resources/hosting-kit.pdf",
+    "downloadAs": "ערכת אירוח - זיכרון בסלון.pdf",
+    "format": "PDF",
+    "pages": 21,
+    "sizeBytes": 10097813
+  },
+  {
+    "id": "testimony-givers-kit",
+    "title": "ערכת מוסרי עדות",
+    "titleEn": "Kit for those giving testimony",
+    "category": "testimony",
+    "summary": "למי שעומד לספר סיפור של בן משפחה: מבנה מפגש זיכרון בסלון, כיצד לאסוף את הסיפור, ושאלות מנחות לאיסוף. זו הערכה שעליה בנוי אשף האיסוף כאן בסטודיו.",
+    "file": "/resources/testimony-givers-kit.pdf",
+    "downloadAs": "ערכת מוסרי עדות - זיכרון בסלון.pdf",
+    "format": "PDF",
+    "pages": 11,
+    "sizeBytes": 3605274
+  },
+  {
+    "id": "teachers-guide",
+    "title": "איך עושים זיכרון בסלון? מדריך למורה",
+    "titleEn": "How to run a Zikaron BaSalon — teacher's guide",
+    "category": "education",
+    "summary": "מדריך למורים בעל-יסודי: למה זיכרון בסלון, איך בונים מפגש בכיתה, ואיך מלווים תלמידים בשיחה על השואה. מיועד לאנשי חינוך.",
+    "file": "/resources/teachers-guide.pdf",
+    "downloadAs": "איך עושים זיכרון בסלון - מדריך למורה.pdf",
+    "format": "PDF",
+    "pages": 14,
+    "sizeBytes": 1955050
+  },
+  {
+    "id": "our-stories-session",
+    "title": "הסיפורים שלנו",
+    "titleEn": "Our Stories",
+    "category": "sessions",
+    "summary": "הצעה לסלון שיתופי: במקום סיפור אחד, כמה סיפורים אישיים קצרים שיחד יוצרים פסיפס של זיכרון. כולל קריאת כיוון, הכנה מראש של המשתתפים וחלוקה לחלקי הערב.",
+    "file": "/resources/our-stories-session.pdf",
+    "downloadAs": "מערך הסיפורים שלנו - זיכרון בסלון.pdf",
+    "format": "PDF",
+    "pages": 2,
+    "sizeBytes": 698456
+  },
+  {
+    "id": "talk-listen-think",
+    "title": "שיחה, הקשבה, מחשבה",
+    "titleEn": "Talk, listen, think",
+    "category": "discussion",
+    "summary": "טקסטים להשראה ולשיח בסלון — מקורות וקטעים לקריאה בקול, עם שאלות שמזמינות את המשתתפים להעמיק בשיחה.",
+    "file": "/resources/talk-listen-think.pdf",
+    "downloadAs": "שיחה הקשבה מחשבה - זיכרון בסלון.pdf",
+    "format": "PDF",
+    "pages": 21,
+    "sizeBytes": 8046936
+  },
+  {
+    "id": "story-building-deck",
+    "title": "מצגת דוגמה לבניית הסיפור",
+    "titleEn": "Example story-building deck",
+    "category": "sessions",
+    "summary": "מצגת לדוגמה שמראה איך סיפור אחד נבנה שלב אחר שלב. אפשר לפתוח אותה ב-PowerPoint, ב-Keynote או ב-Google Slides ולהשתמש בה כשלד למצגת שלכם.",
+    "file": "/resources/story-building-deck.pptx",
+    "downloadAs": "מצגת דוגמה לבניית הסיפור - זיכרון בסלון.pptx",
+    "format": "PPTX",
+    "slides": 10,
+    "sizeBytes": 4336272
+  }
+]

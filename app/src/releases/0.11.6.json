@@ -1,0 +1,10 @@
+{
+  "version": "0.11.6",
+  "date": "2026-10-27",
+  "title": "The last English buttons",
+  "changes": [
+    "The previous and next buttons at the foot of each story section now name the section in Hebrew, as do Presentation, Catalog and Local database in the sidebar.",
+    "The translation catalog now finds English printed straight into a component — text that never reaches a dictionary at all. That is what had been hiding these buttons: the Hebrew existed, but the markup never asked for it.",
+    "Signing in and out, the version panel, the worked-example panel and the Story Studio name itself are wired up too."
+  ]
+}

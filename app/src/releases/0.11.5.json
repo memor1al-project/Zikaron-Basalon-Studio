@@ -1,0 +1,12 @@
+{
+  "version": "0.11.5",
+  "date": "2026-10-27",
+  "title": "One file per language",
+  "changes": [
+    "The Summary step reads in Hebrew: what can be made from the story, the family tree, the map, the timeline, the photographs, and the answers gathered so far.",
+    "All interface text now lives in app/src/i18n/locales/*.json — one plain file per language, keyed by the English. Translating no longer means touching TypeScript, and adding a language is one new file plus three lines of code.",
+    "docs/i18n/TRANSLATION.md lists every string in the site with the screen it appears on, what each language says, and the file it comes from. It is rebuilt by scripts/i18n-catalog.mjs before every deploy.",
+    "The catalog separates three kinds of gap: never translated, translated but still printed as English by its component, and left over from text that no longer exists. Hebrew now has no gaps of the first kind.",
+    "Signing in and out, the version panel and the people filter were translated but never wired up. They are now."
+  ]
+}

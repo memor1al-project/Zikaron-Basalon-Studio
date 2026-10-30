@@ -1,0 +1,11 @@
+{
+  "version": "0.10.0",
+  "date": "2026-10-26",
+  "title": "What the kits actually ask",
+  "changes": [
+    "The guided interview gained a fifth section, After the war — returning home, the displaced persons camps, coming to Israel or elsewhere, and the life rebuilt afterwards. The organisation’s own kit has always asked these; the wizard stopped at liberation.",
+    "A new Conversation page carries the questions Zikaron BaSalon suggests for the part of the evening that follows the testimony. Choose the ones that suit your evening and they are kept for the booklet.",
+    "A material’s notes field now suggests what to ask of an object: when was it written, where was it taken, who is in it.",
+    "All of it in both languages, with the Hebrew taken from the organisation’s own kits rather than translated back from English."
+  ]
+}

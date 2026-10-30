@@ -1,0 +1,10 @@
+{
+  "version": "0.11.0",
+  "date": "2026-10-26",
+  "title": "Saying what is coming",
+  "changes": [
+    "The AI actions are no longer dead buttons. Pressing one while the service is still being set up explains what it will do, what is waiting on, and what already works without it.",
+    "Reading a PDF’s text, finding faces, tags, notes, places, the family tree and the catalog all run on your own device and are unaffected.",
+    "The plan for moving these features onto the organisation’s Claude account is written down in docs/plan/06-claude-migration.md, including the one service that cannot move with the others."
+  ]
+}

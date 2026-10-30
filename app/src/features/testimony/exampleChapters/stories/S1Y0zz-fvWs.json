@@ -1,0 +1,186 @@
+{
+  "videoId": "S1Y0zz-fvWs",
+  "title": "דאני לי מארחת את שורד השואה אברהם רוט- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:22:41.289Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "The story covers Avraham's life from his birth in 1928 through the events of the Second World War.",
+          "sourceSegmentIds": [
+            "seg-1-early-life",
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "Avraham wants the world to remember what happened, not to forget, and not to forgive. He hopes to ensure that such atrocities never happen again.",
+          "sourceSegmentIds": [
+            "seg-5-trauma-legacy"
+          ]
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "His name is Avraham Ruth.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "He was born in Holland in 1928.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "He grew up in a family with six children, including two sisters and four boys. His grandfather also lived nearby in a large house.",
+          "sourceSegmentIds": [
+            "seg-1-early-life",
+            "seg-2-invasion-school"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "He came from an Orthodox liberal family. They were educated to believe that all people are equal, which made the Holocaust unimaginable to them.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "The family initially lived in Holland and was forced into a ghetto in 1943. Later, the brothers were hidden on separate farms in the south of Holland.",
+          "sourceSegmentIds": [
+            "seg-1-early-life",
+            "seg-3-ghetto-deportations",
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "Avraham's mother had to make the quick decision to lie to the Germans during a night raid. She claimed he had cholera, which successfully scared them into leaving the family alone.",
+          "sourceSegmentIds": [
+            "seg-3-ghetto-deportations"
+          ]
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "The Dutch underground helped hide Avraham and his brothers on various farms. Additionally, a Catholic priest convinced local farmers to hide Jewish children, saving about 200 of them.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "Avraham regrets that his family never spoke about the Holocaust at home due to their deep trauma. He feels it is his lifelong task to tell people what happened.",
+          "sourceSegmentIds": [
+            "seg-5-trauma-legacy"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "He wants future generations to remember the reality of the war and never forget. He hopes that by sharing these experiences, history will not repeat itself.",
+          "sourceSegmentIds": [
+            "seg-5-trauma-legacy"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "Listeners should understand that the horrors of war were real, not just scenes from a video game. They must carry this legacy forward and deliver the message to the next generations.",
+          "sourceSegmentIds": [
+            "seg-5-trauma-legacy"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Early Life and Persecution",
+      "when": "1928 - 1940",
+      "description": "Avraham is born into an Orthodox liberal family in Holland. His peaceful life ends when the Germans arrive and begin stripping Jews of their basic rights.",
+      "segmentId": "seg-1-early-life"
+    },
+    {
+      "id": "event-2",
+      "title": "Invasion and Jewish School",
+      "when": "May 1940",
+      "description": "The sudden bombing of Holland takes everyone by surprise. Avraham attends a segregated Jewish school where classmates and teachers frequently disappear.",
+      "segmentId": "seg-2-invasion-school"
+    },
+    {
+      "id": "event-3",
+      "title": "Ghettos and Deportations",
+      "when": "1941 - 1943",
+      "description": "Avraham's family is forced into a ghetto, and he witnesses the brutal deportation of orphans. His mother temporarily saves them from a raid by claiming he has cholera.",
+      "segmentId": "seg-3-ghetto-deportations"
+    },
+    {
+      "id": "event-4",
+      "title": "Hiding and Battle of Arnhem",
+      "when": "",
+      "description": "The Dutch underground helps hide Avraham and his brothers on separate farms. While in hiding, he witnesses American paratroopers fighting and dying during the Battle of Arnhem.",
+      "segmentId": "seg-4-hiding-arnhem"
+    },
+    {
+      "id": "event-5",
+      "title": "Trauma and Legacy",
+      "when": "",
+      "description": "Avraham explains why his family never spoke about the Holocaust at home due to their deep trauma. He emphasizes the importance of sharing his story so future generations never forget.",
+      "segmentId": "seg-5-trauma-legacy"
+    }
+  ],
+  "language": "English",
+  "dir": "ltr"
+}

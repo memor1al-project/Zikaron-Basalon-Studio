@@ -1,0 +1,128 @@
+[
+  {
+    "build": 2,
+    "version": "0.6.0",
+    "deployedAt": "2026-09-22T16:10:30.714Z",
+    "title": "A catalog you can read without the files"
+  },
+  {
+    "build": 3,
+    "version": "0.6.0",
+    "deployedAt": "2026-09-22T16:15:35.413Z",
+    "title": "A catalog you can read without the files"
+  },
+  {
+    "build": 4,
+    "version": "0.7.0",
+    "deployedAt": "2026-09-22T16:32:17.858Z",
+    "title": "Backup, and moving a story between computers"
+  },
+  {
+    "build": 5,
+    "version": "0.7.0",
+    "deployedAt": "2026-09-22T16:44:08.615Z",
+    "title": "Backup, and moving a story between computers"
+  },
+  {
+    "build": 6,
+    "version": "0.7.0",
+    "deployedAt": "2026-09-22T17:09:00.796Z",
+    "title": "Backup, and moving a story between computers"
+  },
+  {
+    "build": 7,
+    "version": "0.8.0",
+    "deployedAt": "2026-10-22T02:40:22.743Z",
+    "title": "Visitor statistics"
+  },
+  {
+    "build": 8,
+    "version": "0.10.0",
+    "deployedAt": "2026-10-26T22:26:50.988Z",
+    "title": "What the kits actually ask"
+  },
+  {
+    "build": 9,
+    "version": "0.11.0",
+    "deployedAt": "2026-10-26T22:36:42.225Z",
+    "title": "Saying what is coming"
+  },
+  {
+    "build": 10,
+    "version": "0.11.1",
+    "deployedAt": "2026-10-26T23:24:37.131Z",
+    "title": "Registration in Hebrew"
+  },
+  {
+    "build": 11,
+    "version": "0.11.2",
+    "deployedAt": "2026-10-26T23:31:45.126Z",
+    "title": "The storage step in Hebrew"
+  },
+  {
+    "build": 12,
+    "version": "0.11.3",
+    "deployedAt": "2026-10-27T01:55:12.239Z",
+    "title": "Collection and the family tree in Hebrew"
+  },
+  {
+    "build": 13,
+    "version": "0.11.4",
+    "deployedAt": "2026-10-28T00:48:58.116Z",
+    "title": "The story step in Hebrew"
+  },
+  {
+    "build": 14,
+    "version": "0.11.5",
+    "deployedAt": "2026-10-28T01:00:50.469Z",
+    "title": "One file per language"
+  },
+  {
+    "build": 15,
+    "version": "0.11.6",
+    "deployedAt": "2026-10-28T01:30:23.773Z",
+    "title": "The last English buttons"
+  },
+  {
+    "build": 16,
+    "version": "0.11.7",
+    "deployedAt": "2026-10-28T01:34:39.578Z",
+    "title": "Guides and materials"
+  },
+  {
+    "build": 17,
+    "version": "0.11.8",
+    "deployedAt": "2026-10-28T02:00:07.005Z",
+    "title": "Report an issue"
+  },
+  {
+    "build": 18,
+    "version": "0.11.9",
+    "deployedAt": "2026-10-28T02:07:44.920Z",
+    "title": "Reporting is for reviewers"
+  },
+  {
+    "build": 19,
+    "version": "0.11.10",
+    "deployedAt": "2026-10-28T02:10:08.061Z",
+    "title": "A button to turn reviewing on"
+  },
+  {
+    "build": 20,
+    "version": "0.11.11",
+    "deployedAt": "2026-10-28T02:15:39.089Z",
+    "title": "Out of the sidebar's way"
+  },
+  {
+    "build": 21,
+    "version": "0.11.12",
+    "deployedAt": "2026-10-28T02:54:17.951Z",
+    "title": "A guide inside the Studio"
+  },
+  {
+    "build": 22,
+    "version": "0.11.13",
+    "deployedAt": "2026-10-28T03:29:23.842Z",
+    "title": "Hebrew, reworded"
+  }
+]

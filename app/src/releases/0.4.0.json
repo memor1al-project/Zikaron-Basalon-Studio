@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "date": "2026-09-18",
+  "title": "Documents and release notes",
+  "changes": [
+    "PDFs and text files can have their text extracted in the browser, with no AI service required.",
+    "Extracted text can be summarized, or used to fill the guided interview's answers — merging with what you have written, never overwriting it.",
+    "A scanned PDF with no text layer says so plainly rather than appearing to do nothing.",
+    "This 'What's new' panel, with one file per release kept in the codebase.",
+    "A page left open across a deploy now explains that the app was updated, instead of reporting a failed module import."
+  ]
+}

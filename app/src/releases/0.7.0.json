@@ -1,0 +1,14 @@
+{
+  "version": "0.7.0",
+  "date": "2026-09-22",
+  "title": "Backup, and moving a story between computers",
+  "changes": [
+    "A story can be exported as a single archive holding every material and the catalog, so work can be backed up, handed to a family member, or continued on another computer.",
+    "Each archive carries the date it was made, a bill of materials listing every resource in it, and which revision of the catalog it captured.",
+    "A material the catalog remembers but could not reach is still listed in the manifest, marked as missing — an export never looks complete while quietly leaving something out.",
+    "Importing writes the materials back into the connected folder. A file already there is never overwritten, and an existing catalog is never replaced.",
+    "The archive is written as a stream, so a family archive of many gigabytes does not have to fit in memory.",
+    "The Storage step now offers restoring from an export, so a story begun on another computer can be continued without first connecting something else.",
+    "For an archive too large to import in the browser, a small unpacking script can be downloaded for Mac, Linux or Windows — a dialog explains where to put it and what it does before you download it. It needs nothing installed."
+  ]
+}

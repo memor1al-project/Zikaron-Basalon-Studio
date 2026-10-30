@@ -1,0 +1,132 @@
+[
+  {
+    "key": "scene",
+    "slug": "scene",
+    "title": "Setting the scene",
+    "intro": "A few framing questions before the details — these shape how the rest gets told.",
+    "fields": [
+      {
+        "key": "timePeriod",
+        "label": "What time period does this story cover?",
+        "placeholder": "e.g. 1938 to 1949"
+      },
+      {
+        "key": "intentionMessage",
+        "label": "What feeling or message do you want to come through?",
+        "placeholder": "e.g. resilience, quiet courage, the cost of small kindnesses"
+      },
+      {
+        "key": "relationship",
+        "label": "What's your relationship to the person this story is about?",
+        "placeholder": "e.g. granddaughter, told to me by my mother"
+      }
+    ]
+  },
+  {
+    "key": "lifeBeforeWar",
+    "slug": "life-before-war",
+    "title": "Life before the war",
+    "intro": "Who they were before everything changed.",
+    "fields": [
+      {
+        "key": "birthNameAndNicknames",
+        "label": "What name were they born with, and what were they called growing up?",
+        "placeholder": "Birth name, nicknames, any name changes later"
+      },
+      {
+        "key": "bornWhenWhere",
+        "label": "When and where were they born?",
+        "placeholder": "Date and place"
+      },
+      {
+        "key": "family",
+        "label": "Who were the close and extended family around them?",
+        "placeholder": "Names, relationships, occupations"
+      },
+      {
+        "key": "religionAndCulture",
+        "label": "Did religion, tradition, or culture shape their everyday life?",
+        "placeholder": "How, if at all"
+      }
+    ]
+  },
+  {
+    "key": "warYears",
+    "slug": "war-years",
+    "title": "The war years",
+    "intro": "What's known about this period — even fragments are worth writing down.",
+    "fields": [
+      {
+        "key": "whereFamilyWas",
+        "label": "Where was the family during the war?",
+        "placeholder": "Places, moves, separations"
+      },
+      {
+        "key": "sourceOfStrength",
+        "label": "Was there a song, phrase, or story that gave them strength?",
+        "placeholder": "Anything that stayed with them"
+      },
+      {
+        "key": "difficultDecision",
+        "label": "Was there a moment they had to make a hard decision?",
+        "placeholder": "Describe the moment, as much as is known"
+      },
+      {
+        "key": "whoHelped",
+        "label": "Did anyone help or support them along the way?",
+        "placeholder": "Who, and how"
+      }
+    ]
+  },
+  {
+    "key": "afterWar",
+    "slug": "after-war",
+    "title": "After the war",
+    "intro": "Liberation is rarely the end of the story — what came next is often the part a family knows best.",
+    "fields": [
+      {
+        "key": "returnedHome",
+        "label": "Did they return home after the war?",
+        "placeholder": "What they found, or why they couldn't go back"
+      },
+      {
+        "key": "displacedPersonsCamps",
+        "label": "Did they spend time in the displaced persons camps?",
+        "placeholder": "Where, and for how long"
+      },
+      {
+        "key": "emigration",
+        "label": "When did they come to Israel, or emigrate elsewhere?",
+        "placeholder": "Where they went, and when"
+      },
+      {
+        "key": "rebuildingLife",
+        "label": "What did they build afterwards?",
+        "placeholder": "Work, the family they made, the life that followed"
+      }
+    ]
+  },
+  {
+    "key": "messageToday",
+    "slug": "message-today",
+    "title": "A message for today",
+    "intro": "What this story is for, beyond remembering it.",
+    "fields": [
+      {
+        "key": "whyShareIt",
+        "label": "Why does it matter to you to share this now?",
+        "placeholder": ""
+      },
+      {
+        "key": "messageToFutureGenerations",
+        "label": "What would you want future generations to take from it?",
+        "placeholder": ""
+      },
+      {
+        "key": "lessonsToTakeAway",
+        "label": "What do you hope listeners carry with them?",
+        "placeholder": ""
+      }
+    ]
+  }
+]

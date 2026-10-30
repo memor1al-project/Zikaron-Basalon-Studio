@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "date": "2026-09-16",
+  "title": "First public deployment",
+  "changes": [
+    "Story Studio deployed to Firebase Hosting.",
+    "Example stories open to anyone — no account needed to explore testimony or see how a story is built.",
+    "Migrated off two Gemini models Google had retired, which had silently broken summarize, timeline and story.",
+    "The app detects whether the AI service is deployed and disables those actions cleanly instead of failing one click at a time.",
+    "Fixed a caching rule that left browsers serving a stale page for an hour after each deploy."
+  ]
+}

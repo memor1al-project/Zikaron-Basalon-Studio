@@ -1,0 +1,164 @@
+{
+  "videoId": "drEEx1AtySY",
+  "title": "עידן אינדגיים מארח את שורד השואה אהרון פקין- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:23:38.487Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מתחיל בפרוץ המלחמה, ממשיך במסע מאושוויץ לבוכנוואלד בחודש ינואר, ומסתיים בשחרור המחנה ב-11 באפריל 1945.",
+          "sourceSegmentIds": [
+            "seg-1-outbreak-and-deportation",
+            "seg-3-virtual-tour",
+            "seg-4-block-66-and-liberation"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "אהרון מזכיר את אביו, שאת העוזר שלו שלחו לבוכנוואלד לפני הגירושים.",
+          "sourceSegmentIds": [
+            "seg-4-block-66-and-liberation"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "אהרון היה בעירו כשהחלה המלחמה ונכנסו הטנקים. בהמשך הוא נשלח בקרונות משא מאושוויץ לבוכנוואלד, לשם הגיע בינואר, ושהה בבלוק 66.",
+          "sourceSegmentIds": [
+            "seg-1-outbreak-and-deportation",
+            "seg-2-journey-to-buchenwald",
+            "seg-3-virtual-tour",
+            "seg-4-block-66-and-liberation"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "העוזר של אביו מצא אותו בבוכנוואלד, הביא לו סוודר והעביר אותו לבלוק 66. מנהל הבלוק, צ'כי בשם קלינה, שמר על הילדים כשטען בפני הגרמנים שהם פולנים וחילק להם פתקים עם האות P.",
+          "sourceSegmentIds": [
+            "seg-4-block-66-and-liberation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "פרוץ המלחמה והגירוש",
+      "when": "",
+      "description": "אהרון מתאר את כניסת הטנקים לעירו ואת ההתעללות ביהודים ברחובות. לאחר מכן הוא מספר על תפיסת היהודים ושילוחם למחנות ולהשמדה.",
+      "segmentId": "seg-1-outbreak-and-deportation"
+    },
+    {
+      "id": "event-2",
+      "title": "המסע מאושוויץ לבוכנוואלד",
+      "when": "",
+      "description": "אהרון נשלח בקרונות משא מאושוויץ לבוכנוואלד, מסע שארך שמונה ימים ללא מים ואוכל. כדי לשרוד, הם שתו שלג שירד על בגדיהם.",
+      "segmentId": "seg-2-journey-to-buchenwald"
+    },
+    {
+      "id": "event-3",
+      "title": "ההגעה לבוכנוואלד",
+      "when": "ינואר",
+      "description": "אהרון מגיע למחנה בוכנוואלד בחודש ינואר, בשיא הקור. הוא מתאר את הצריפים שבהם ישנו בצפיפות רבה, ראש לצד ראש.",
+      "segmentId": "seg-3-virtual-tour"
+    },
+    {
+      "id": "event-4",
+      "title": "בלוק 66 והשחרור",
+      "when": "11 באפריל 1945",
+      "description": "אהרון מועבר לבלוק הילדים, שם מנהל הבלוק קלינה מגן עליהם. ב-11 באפריל 1945 המחנה משוחרר לאחר הפצצת עמדות השמירה, והניצולים חלשים מכדי להרים את החיילים המשחררים.",
+      "segmentId": "seg-4-block-66-and-liberation"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

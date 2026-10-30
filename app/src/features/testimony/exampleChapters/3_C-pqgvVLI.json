@@ -1,0 +1,48 @@
+{
+  "videoId": "3_C-pqgvVLI",
+  "title": "Hana Gefrit, a Holocaust survivor, meets with children from Kibbutz Mefalsim.",
+  "durationSeconds": 99,
+  "language": "Hebrew",
+  "dir": "rtl",
+  "generatedAt": "2026-09-10T21:37:29.165Z",
+  "segments": [
+    {
+      "id": "seg-1-tzora",
+      "title": "ילדות בקיבוץ צרעה",
+      "summary": "הדוברות משוחחות על הילדות המשותפת בקיבוץ צרעה. הן מזכירות את קבוצת תלם בה גדלו.",
+      "keySubjects": [
+        "קיבוץ צרעה",
+        "קבוצת תלם",
+        "ילדות"
+      ],
+      "startTime": 0,
+      "endTime": 17
+    },
+    {
+      "id": "seg-2-hiding",
+      "title": "אובדן הבית ומחבוא בארון",
+      "summary": "חנה מספרת כיצד ביום אחד איבדה את ביתה. היא משתפת שהסתתרה בארון במשך שנתיים ומעבירה מסר של תקווה.",
+      "keySubjects": [
+        "אובדן הבית",
+        "מחבוא בארון",
+        "הישרדות",
+        "תקווה"
+      ],
+      "startTime": 17,
+      "endTime": 41.8
+    },
+    {
+      "id": "seg-3-resilience",
+      "title": "השראה וכוח ההישרדות",
+      "summary": "דוברת נוספת מתארת את ההשראה שהיא שואבת מהחוסן של חנה. היא מקשרת בין המבט בעיניה לבין בני הדור הנוכחי בישראל.",
+      "keySubjects": [
+        "חוסן נפשי",
+        "הדור הנוכחי",
+        "השראה",
+        "ישראל"
+      ],
+      "startTime": 41.8,
+      "endTime": 98.701
+    }
+  ]
+}

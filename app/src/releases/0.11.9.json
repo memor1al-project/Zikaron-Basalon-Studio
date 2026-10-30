@@ -1,0 +1,10 @@
+{
+  "version": "0.11.9",
+  "date": "2026-10-27",
+  "title": "Reporting is for reviewers",
+  "changes": [
+    "The issue reporter is now off by default. Reviewers switch it on by opening any page with ?report=1; it then stays on for that browser until ?report=0 or the panel's own switch turns it off.",
+    "The flag is taken out of the address bar once it has been read, so it does not travel into links copied from the site afterwards.",
+    "docs/REVIEWING.md explains the whole thing for whoever is doing the reviewing."
+  ]
+}

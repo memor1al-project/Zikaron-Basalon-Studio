@@ -1,0 +1,12 @@
+{
+  "version": "0.9.0",
+  "date": "2026-10-26",
+  "title": "Hebrew",
+  "changes": [
+    "The Studio is available in Hebrew at /he — every page has its own Hebrew address, so a link to a particular testimony can be sent to a Hebrew-reading visitor.",
+    "The page lays out right-to-left, with filenames, paths and numbers kept left-to-right inside Hebrew text.",
+    "A language link in the sidebar moves between the two versions of whichever page you are on.",
+    "The guided interview now asks its questions in the organisation's own Hebrew, taken verbatim from the Zikaron BaSalon testimony-givers kit rather than translated back from the English.",
+    "Translated so far: the navigation, the example stories, the testimony pages and the guided interview. The rest of the collection wizard is still English and falls back to it rather than rendering blank."
+  ]
+}

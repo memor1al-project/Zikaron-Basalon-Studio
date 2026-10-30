@@ -1,0 +1,14 @@
+{
+  "version": "0.3.0",
+  "date": "2026-09-17",
+  "title": "Local storage and faces",
+  "changes": [
+    "Metadata for a local folder is stored in a SQLite file inside that folder, so notes and tags travel with the materials.",
+    "Folder scanning now reads subfolders, and materials are keyed by path so same-named files no longer collide.",
+    "Materials can be added from other folders and reattach on later visits.",
+    "Materials can be removed from a story and put back; the files on disk are never deleted.",
+    "Faces are drawn on top of photos, and selecting one shows every other material that person appears in.",
+    "A People strip below the search box filters the collection to one person.",
+    "Save failures are shown instead of being swallowed."
+  ]
+}

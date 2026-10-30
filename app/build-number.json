@@ -1,0 +1,4 @@
+{
+  "build": 22,
+  "note": "Incremented by scripts/release.mjs on every deploy. Committed, so the number is shared rather than per-machine."
+}

@@ -1,0 +1,168 @@
+{
+  "videoId": "6rkEWVmDs8s",
+  "title": "אינדגיים מארח את שורד השואה שמעון אייל- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:21:01.419Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מתחיל כשהדובר היה בן 8 עם פרוץ המלחמה, נמשך לאורך שנות המלחמה והסתתרותו בפנימייה, ומגיע עד לתקופה שאחרי המלחמה וביקורו בישראל.",
+          "sourceSegmentIds": [
+            "seg-1-paris-war",
+            "seg-2-boarding-school",
+            "seg-3-aftermath-israel"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "הדובר מבקש להעביר את התחושה של אובדן הילדות והבדידות הקשה, לצד המסר המרגש על חשיבותם של חיים חופשיים ומאושרים לילדים, כפי שראה בישראל.",
+          "sourceSegmentIds": [
+            "seg-2-boarding-school",
+            "seg-3-aftermath-israel"
+          ]
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "הדובר גדל בפריז. הוא מציין שהיה בן 8 בשנה הראשונה של המלחמה.",
+          "sourceSegmentIds": [
+            "seg-1-paris-war"
+          ]
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "הדובר מזכיר את אמו, ששלחה אותו להסתתר בפנימייה, ואת שני הוריו שנעצרו על ידי המשטרה.",
+          "sourceSegmentIds": [
+            "seg-2-boarding-school"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "המשפחה חייתה בפריז. בהמשך, הדובר נשלח להסתתר בפנימייה, והוריו נעצרו על ידי המשטרה הצרפתית.",
+          "sourceSegmentIds": [
+            "seg-1-paris-war",
+            "seg-2-boarding-school",
+            "seg-3-aftermath-israel"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "הדובר נאלץ להתמודד עם סחיטה מצד ילד שהכיר אותו בפנימייה ואיים לחשוף את יהדותו. הוא נאלץ לשלם לו באוכל כמו לחם, ריבה ושוקולד כדי שלא יפגע בו.",
+          "sourceSegmentIds": [
+            "seg-2-boarding-school"
+          ]
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "אמו של הדובר עזרה לו כשהחליטה לשלוח אותו להסתתר בפנימייה כדי להציל את חייו.",
+          "sourceSegmentIds": [
+            "seg-2-boarding-school"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "הדובר מדגיש את הערך העצום של ילדות נורמלית, חופשית ומאושרת. הוא מתרגש מכך שילדים יכולים פשוט להיות ילדים ולשחק בחופשיות.",
+          "sourceSegmentIds": [
+            "seg-3-aftermath-israel"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "הדובר מבקש להבהיר שהשואה התרחשה גם ברחובות פריז שנראו רגילים לחלוטין. בנוסף, הוא ממחיש את המשא הנפשי הכבד שילדים נשאו, כמו התפילה שהוריו מתו מהר כדי שלא יסבלו.",
+          "sourceSegmentIds": [
+            "seg-1-paris-war",
+            "seg-3-aftermath-israel"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "פרוץ המלחמה בפריז",
+      "when": "כשהדובר היה בן 8",
+      "description": "הדובר חווה את תחילת המלחמה בפריז, שם הרחובות נראו רגילים אך האנטישמיות הייתה קשה, והוא ראה ילדים יהודים נלקחים מהגן הציבורי.",
+      "segmentId": "seg-1-paris-war"
+    },
+    {
+      "id": "event-2",
+      "title": "הסתתרות בפנימייה ומעצר ההורים",
+      "when": "במהלך המלחמה",
+      "description": "אמו של הדובר שולחת אותו להסתתר בפנימייה בזהות בדויה. שם הוא מגלה שהוריו נעצרו, מפסיק לבכות לתמיד, ונאלץ לשלם דמי סחיטה לילד אחר באוכל.",
+      "segmentId": "seg-2-boarding-school"
+    },
+    {
+      "id": "event-3",
+      "title": "סוף המלחמה וההישארות בישראל",
+      "when": "גיל 14 ולאחר מכן",
+      "description": "לאחר המלחמה הדובר מגלה על מחנות הריכוז ומתפלל שהוריו לא סבלו. מאוחר יותר, הוא מגיע לביקור בישראל ומחליט להישאר בה לאחר שהוא רואה ילדים חופשיים ומאושרים.",
+      "segmentId": "seg-3-aftermath-israel"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

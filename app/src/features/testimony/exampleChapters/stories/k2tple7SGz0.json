@@ -1,0 +1,160 @@
+{
+  "videoId": "k2tple7SGz0",
+  "title": "שלומי בן עטר מארח את שורדת השואה רינה- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:25:57.772Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מכסה את התקופה החל מילדותה של הדוברת בגיל חמש עם כניסת החיילים, דרך שנות ההסתתרות, ועד סוף שנת 1944 ותחילת הנדודים לארץ ישראל.",
+          "sourceSegmentIds": [
+            "seg-1-start",
+            "seg-3-oven-tunnel"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "הדוברת כונתה 'רינוש' על ידי אמה.",
+          "sourceSegmentIds": [
+            "seg-3-oven-tunnel"
+          ]
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "המשפחה הגרעינית כללה את אמה ואביה של הדוברת. בנוסף, מוזכר אח של אביה שהסתתר איתם, ואדם בשם מרק.",
+          "sourceSegmentIds": [
+            "seg-2-first-hideout",
+            "seg-3-oven-tunnel"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "המשפחה הסתתרה תחילה במחבוא מתחת לרצפה עם כ-20 אנשים. לאחר מכן, הם הסתתרו במשך למעלה משנתיים בתעלה צרה מתחת לתנור חימום בביתה של עוזרת הבית לשעבר.",
+          "sourceSegmentIds": [
+            "seg-2-first-hideout",
+            "seg-3-oven-tunnel"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "המשפחה החזיקה רימון במחבוא מתוך החלטה שאם הגרמנים יתפסו אותם, הם יפוצצו את עצמם ולא יילקחו בחיים.",
+          "sourceSegmentIds": [
+            "seg-3-oven-tunnel"
+          ]
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "בחור אלמוני הכין את המחבוא הראשון מתחת לרצפה. לאחר מכן, העוזרת לשעבר של המשפחה, שורה, הסתירה אותם בביתה מתחת לתנור ושיקרה לגרמנים כדי להגן עליהם.",
+          "sourceSegmentIds": [
+            "seg-2-first-hideout",
+            "seg-3-oven-tunnel"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "סיום הילדות ותחילת הגזירות",
+      "when": "גיל חמש",
+      "description": "החיילים נכנסים לעיר והילדות המאושרת מסתיימת. מתחילות הגזירות, הכוללות ענידת טלאי ומסירת זהב לגרמנים.",
+      "segmentId": "seg-1-start"
+    },
+    {
+      "id": "event-2",
+      "title": "לקיחת הגברים וההסתתרות מתחת לרצפה",
+      "when": "",
+      "description": "הגרמנים לוקחים את אביה של הדוברת. הדוברת ואמה מסתתרות יחד עם כ-20 אנשים במחבוא שהוכן מתחת לרצפה וניצלות מחיפוש.",
+      "segmentId": "seg-2-first-hideout"
+    },
+    {
+      "id": "event-3",
+      "title": "המחבוא אצל שורה והבריחה",
+      "when": "סוף 1944",
+      "description": "המשפחה מסתתרת בתעלה מתחת לתנור בבית העוזרת שורה למשך שנתיים. בסוף 1944 פורצת שריפה, הם נמלטים מהחלון ומתחילים לנדוד לעבר ארץ ישראל.",
+      "segmentId": "seg-3-oven-tunnel"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

@@ -1,0 +1,7209 @@
+{
+  "generated": "2026-10-28T03:29:13.901Z",
+  "sourceLocale": "en",
+  "locales": [
+    "he"
+  ],
+  "counts": {
+    "strings": 430,
+    "he": 430
+  },
+  "entries": [
+    {
+      "text": "A question to take home",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/discussionPrompts.json",
+          "line": null
+        }
+      ],
+      "screen": "Discussion prompts",
+      "translations": {
+        "he": "שאלה לקחת הביתה"
+      }
+    },
+    {
+      "text": "Questions to open the conversation",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/discussionPrompts.json",
+          "line": null
+        }
+      ],
+      "screen": "Discussion prompts",
+      "translations": {
+        "he": "שאלות לפתיחת השיחה"
+      }
+    },
+    {
+      "text": "A line about this round of review (optional)",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 337
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "שורה על סבב הבדיקה הזה (לא חובה)"
+      }
+    },
+    {
+      "text": "Add to the list",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 265
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הוספה לרשימה"
+      }
+    },
+    {
+      "text": "Clear the list",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 353
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "ניקוי הרשימה"
+      }
+    },
+    {
+      "text": "Click the part of the page you want to report",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 143
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "לחצו על החלק בדף שעליו תרצו לדווח"
+      }
+    },
+    {
+      "text": "Confusing",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 16
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "מבלבל"
+      }
+    },
+    {
+      "text": "Copied",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 343
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הועתק"
+      }
+    },
+    {
+      "text": "Copy the list",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 343
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "העתקת הרשימה"
+      }
+    },
+    {
+      "text": "Describe what you see and what you expected instead.",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 252
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "תארו מה אתם רואים ומה ציפיתם לראות במקום."
+      }
+    },
+    {
+      "text": "Doesn't work",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 15
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "לא עובד"
+      }
+    },
+    {
+      "text": "Download",
+      "usedIn": [
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 223
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הורדה"
+      }
+    },
+    {
+      "text": "Download as a file",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 350
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הורדה כקובץ"
+      }
+    },
+    {
+      "text": "Free search",
+      "usedIn": [
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 89
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "חיפוש חופשי"
+      }
+    },
+    {
+      "text": "Looks wrong",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 13
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "נראה לא תקין"
+      }
+    },
+    {
+      "text": "Open in a new tab",
+      "usedIn": [
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 231
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "פתיחה בלשונית חדשה"
+      }
+    },
+    {
+      "text": "Other",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 18
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "אחר"
+      }
+    },
+    {
+      "text": "Report an issue",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 158
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "דיווח על תקלה"
+      }
+    },
+    {
+      "text": "Reported issues",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 306
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "תקלות שדווחו"
+      }
+    },
+    {
+      "text": "Reporting is switched on for this browser only.",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 358
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הדיווח מופעל בדפדפן הזה בלבד."
+      }
+    },
+    {
+      "text": "Review reported issues",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 165
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "עיון בתקלות שדווחו"
+      }
+    },
+    {
+      "text": "Something is missing",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 17
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "משהו חסר"
+      }
+    },
+    {
+      "text": "Switch it off",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 360
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "לכבות אותו"
+      }
+    },
+    {
+      "text": "The kits Zikaron BaSalon publishes for hosts, for families giving testimony, and for teachers. Download what you need — these are the organisation's own documents, in Hebrew.",
+      "usedIn": [
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 78
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הערכות שזיכרון בסלון מפרסמים — למארחים, למשפחות שמוסרות עדות ולאנשי חינוך. הורידו את מה שדרוש לכם; אלה המסמכים של העמותה עצמה, בעברית."
+      }
+    },
+    {
+      "text": "These materials are published by Zikaron BaSalon and belong to them. The organisation's full library, including recorded testimony, is at",
+      "usedIn": [
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 144
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "החומרים האלה מתפרסמים על ידי זיכרון בסלון והם שייכים להם. הספרייה המלאה של העמותה, ובה גם עדויות מוקלטות, נמצאת באתר"
+      }
+    },
+    {
+      "text": "These stay in this browser until you export them. Nothing is sent anywhere.",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 314
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "הן נשמרות בדפדפן הזה עד שתייצאו אותן. שום דבר לא נשלח לשום מקום."
+      }
+    },
+    {
+      "text": "What's wrong here?",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 228
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "מה לא בסדר כאן?"
+      }
+    },
+    {
+      "text": "Wording",
+      "usedIn": [
+        {
+          "file": "app/src/features/report/issueExport.ts",
+          "line": 14
+        }
+      ],
+      "screen": "Elsewhere",
+      "translations": {
+        "he": "ניסוח"
+      }
+    },
+    {
+      "text": " and ",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 340
+        },
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 424
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": " ו"
+      }
+    },
+    {
+      "text": "— then choose it above.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 509
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "— ואז בחרו אותו למעלה."
+      }
+    },
+    {
+      "text": ", and type a name against each one — they'll show up here.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 235
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": ", והקלידו שם מול כל אחת — הן יופיעו כאן."
+      }
+    },
+    {
+      "text": ", open a photograph, run",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 234
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": ", פתחו תצלום, הפעילו"
+      }
+    },
+    {
+      "text": "…of whom?",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 122
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "…של מי?"
+      }
+    },
+    {
+      "text": "{a} and {b} are recorded in different families. Remove one of those links first.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 262
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{a} ו{b} רשומים במשפחות שונות. הסירו קודם אחד מהקשרים האלה."
+      }
+    },
+    {
+      "text": "{n} name is already in the tree and not shown.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 167
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שם אחד כבר נמצא בעץ ואינו מוצג."
+      }
+    },
+    {
+      "text": "{n} named face from your photographs",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 221
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "פנים אחת עם שם מתוך התצלומים שלכם"
+      }
+    },
+    {
+      "text": "{n} named faces from your photographs",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 221
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{n} פנים עם שם מתוך התצלומים שלכם"
+      }
+    },
+    {
+      "text": "{n} names are already in the tree and not shown.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 167
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{n} שמות כבר נמצאים בעץ ואינם מוצגים."
+      }
+    },
+    {
+      "text": "{n} people have been named while tagging photographs in Collection. Bring them in with their portraits, then say how they're related.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 467
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{n} אנשים קיבלו שם בזמן תיוג התצלומים בשלב האיסוף. הביאו אותם לכאן עם התמונות שלהם, ואז ספרו איך הם קשורים."
+      }
+    },
+    {
+      "text": "{n} person has been named while tagging photographs in Collection. Bring them in with their portraits, then say how they're related.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 467
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אדם אחד קיבל שם בזמן תיוג התצלומים בשלב האיסוף. הביאו אותו לכאן עם התמונה שלו, ואז ספרו איך הוא קשור."
+      }
+    },
+    {
+      "text": "{n} photo",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 154
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "תצלום אחד"
+      }
+    },
+    {
+      "text": "{n} photos",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 154
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{n} תצלומים"
+      }
+    },
+    {
+      "text": "{n} selected",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 188
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "{n} נבחרו"
+      }
+    },
+    {
+      "text": "{name} already has two parents recorded.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 239
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ל{name} כבר רשומים שני הורים."
+      }
+    },
+    {
+      "text": "{name} already has two parents recorded. Remove one of those links first.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 249
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ל{name} כבר רשומים שני הורים. הסירו קודם אחד מהקשרים האלה."
+      }
+    },
+    {
+      "text": "A person can't be linked to themselves.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 224
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אי אפשר לקשר אדם לעצמו."
+      }
+    },
+    {
+      "text": "A word on living relatives: a tree exported from elsewhere often carries people who are still alive and haven't been asked. Bring in only what they'd be comfortable sharing — anyone can be removed here after importing.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 529
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מילה על קרובים שעדיין בחיים: עץ שיוצא ממקום אחר נושא לא פעם אנשים שעדיין בחיים ושלא נשאלו. הביאו רק את מה שהיו מרגישים בנוח לשתף — אפשר להסיר כל אדם מכאן גם אחרי הייבוא."
+      }
+    },
+    {
+      "text": "Actions for",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 87
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "פעולות עבור"
+      }
+    },
+    {
+      "text": "Add {n} people",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 204
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת {n} אנשים"
+      }
+    },
+    {
+      "text": "Add {n} person",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 204
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת אדם אחד"
+      }
+    },
+    {
+      "text": "Add a child",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 19
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת ילד/ה"
+      }
+    },
+    {
+      "text": "Add a connection",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 351
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת קשר"
+      }
+    },
+    {
+      "text": "Add a parent",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 20
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת הורה"
+      }
+    },
+    {
+      "text": "Add a partner",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 22
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת בן/בת זוג"
+      }
+    },
+    {
+      "text": "Add a person",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 260
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 137
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 152
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת אדם"
+      }
+    },
+    {
+      "text": "Add a sibling",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 21
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת אח/ות"
+      }
+    },
+    {
+      "text": "Add from tagged faces",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 86
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספה מתוך פנים מתויגות"
+      }
+    },
+    {
+      "text": "Add people",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 203
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת אנשים"
+      }
+    },
+    {
+      "text": "Add people one at a time, saying how each one connects to someone already here. Two or three names is a perfectly good tree.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 479
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוסיפו אדם אחד בכל פעם, ואמרו איך כל אחד מתחבר למישהו שכבר נמצא כאן. שניים או שלושה שמות הם עץ טוב בהחלט."
+      }
+    },
+    {
+      "text": "Add photo",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 693
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת תמונה"
+      }
+    },
+    {
+      "text": "Add the first person",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 480
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספת האדם הראשון"
+      }
+    },
+    {
+      "text": "Add to tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 443
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוספה לעץ"
+      }
+    },
+    {
+      "text": "already in tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 153
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כבר בעץ"
+      }
+    },
+    {
+      "text": "Already recorded as a child of {name}.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 246
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כבר רשום כילד/ה של {name}."
+      }
+    },
+    {
+      "text": "Already recorded as a parent of {name}.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 237
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כבר רשום כהורה של {name}."
+      }
+    },
+    {
+      "text": "Already recorded as a sibling of {name}.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 260
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כבר רשום כאח/ות של {name}."
+      }
+    },
+    {
+      "text": "Already recorded as partners.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 270
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כבר רשומים כבני זוג."
+      }
+    },
+    {
+      "text": "Any form — “1902”, “about 1902”",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 254
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בכל צורה — „1902”, „בערך 1902”"
+      }
+    },
+    {
+      "text": "Anything worth remembering about them",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 280
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כל דבר שראוי לזכור עליהם"
+      }
+    },
+    {
+      "text": "Back to collection",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 376
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "חזרה לאיסוף"
+      }
+    },
+    {
+      "text": "Birthplace",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 257
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מקום הלידה"
+      }
+    },
+    {
+      "text": "Born",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 254
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "נולד/ה"
+      }
+    },
+    {
+      "text": "Change photo",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 693
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "החלפת תמונה"
+      }
+    },
+    {
+      "text": "Change portrait",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 205
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "החלפת התמונה"
+      }
+    },
+    {
+      "text": "Changes here take effect straight away, and apply to the chart rather than to this person's details. Removing a link never deletes anyone.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 296
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שינויים כאן נכנסים לתוקף מיד, והם נוגעים לתרשים ולא לפרטים של האדם הזה. הסרת קשר אף פעם לא מוחקת אף אחד."
+      }
+    },
+    {
+      "text": "Child in a family",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 340
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ילד/ה במשפחה"
+      }
+    },
+    {
+      "text": "child of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 424
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ילד/ה של"
+      }
+    },
+    {
+      "text": "Child of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 340
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ילד/ה של"
+      }
+    },
+    {
+      "text": "Choose a .ged file",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 487
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בחירת קובץ GEDCOM"
+      }
+    },
+    {
+      "text": "Choose a portrait",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 86
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בחירת תמונת פנים"
+      }
+    },
+    {
+      "text": "Choose from tagged faces",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 71
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 472
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 205
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בחירה מתוך פנים מתויגות"
+      }
+    },
+    {
+      "text": "Choose how they are related.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 223
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בחרו מה הקשר ביניהם."
+      }
+    },
+    {
+      "text": "Choose who this person is related to, or pick “Not linked yet”.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 102
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בחרו למי האדם הזה קשור, או בחרו ב„עדיין לא מקושר”."
+      }
+    },
+    {
+      "text": "Collection",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 233
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "איסוף"
+      }
+    },
+    {
+      "text": "Connect",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 92
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "חיבור"
+      }
+    },
+    {
+      "text": "Connect to someone in the tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 126
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "חיבור למישהו שכבר בעץ"
+      }
+    },
+    {
+      "text": "Continue to the story",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 379
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "המשך לסיפור"
+      }
+    },
+    {
+      "text": "Couldn't load your saved tree. Anything added now may overwrite it — reload before saving.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 76
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "לא הצלחנו לטעון את העץ השמור שלכם. כל מה שיתווסף עכשיו עלול לדרוס אותו — רעננו את הדף לפני שמירה."
+      }
+    },
+    {
+      "text": "Couldn't read that file.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 214
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "לא הצלחנו לקרוא את הקובץ הזה."
+      }
+    },
+    {
+      "text": "Couldn't save. Check your connection and try again.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 116
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "השמירה נכשלה. בדקו את החיבור ונסו שוב."
+      }
+    },
+    {
+      "text": "Died",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 263
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "נפטר/ה"
+      }
+    },
+    {
+      "text": "Edit",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 716
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 137
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "עריכה"
+      }
+    },
+    {
+      "text": "Edit details",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/NodeMenu.tsx",
+          "line": 130
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "עריכת פרטים"
+      }
+    },
+    {
+      "text": "Everyone you've named is already in the tree.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 230
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "כל מי שנתתם לו שם כבר נמצא בעץ."
+      }
+    },
+    {
+      "text": "Export",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 271
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ייצוא"
+      }
+    },
+    {
+      "text": "Extract faces",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 234
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "זיהוי פנים"
+      }
+    },
+    {
+      "text": "Faces you've named while tagging photographs in Collection.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 90
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "פנים שנתתם להן שם בזמן תיוג התצלומים בשלב האיסוף."
+      }
+    },
+    {
+      "text": "Female",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 247
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "נקבה"
+      }
+    },
+    {
+      "text": "First name",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 232
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שם פרטי"
+      }
+    },
+    {
+      "text": "From tagged faces",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 264
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מתוך פנים מתויגות"
+      }
+    },
+    {
+      "text": "Give at least a first or last name.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 98
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הזינו לפחות שם פרטי או שם משפחה."
+      }
+    },
+    {
+      "text": "How do they connect?",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 366
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "איך הם מתחברים?"
+      }
+    },
+    {
+      "text": "If the last name changed on marriage",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 241
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אם שם המשפחה השתנה בנישואין"
+      }
+    },
+    {
+      "text": "If the tree lives in Gramps, MyHeritage, Ancestry or similar, export it as a GEDCOM file and bring it in whole.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 486
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אם העץ נמצא ב-Gramps, ב-MyHeritage, ב-Ancestry או בשירות דומה, ייצאו אותו כקובץ GEDCOM והביאו אותו לכאן בשלמותו."
+      }
+    },
+    {
+      "text": "Import GEDCOM",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 268
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ייבוא GEDCOM"
+      }
+    },
+    {
+      "text": "Import what you already have",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 485
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ייבוא מה שכבר יש לכם"
+      }
+    },
+    {
+      "text": "In a family of their own",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 331
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "במשפחה משל עצמו"
+      }
+    },
+    {
+      "text": "is free and open-source, keeps the data on your own machine, and exports GEDCOM. Whichever route you take, the tree here can be exported back out at any time.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 517
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "היא חינמית ובקוד פתוח, שומרת את הנתונים על המחשב שלכם ומייצאת GEDCOM. לא משנה באיזו דרך תבחרו, תמיד אפשר לייצא מכאן את העץ בחזרה."
+      }
+    },
+    {
+      "text": "is the…",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 102
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הוא/היא ה…"
+      }
+    },
+    {
+      "text": "Last name",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 235
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שם משפחה"
+      }
+    },
+    {
+      "text": "Leave blank if living or unknown",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 263
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "השאירו ריק אם בחיים או לא ידוע"
+      }
+    },
+    {
+      "text": "Linking now keeps the chart together. It can also be left for later.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 368
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "קישור עכשיו שומר על התרשים מחובר. אפשר גם להשאיר את זה למועד מאוחר יותר."
+      }
+    },
+    {
+      "text": "Look under Settings, Tools, or Share for Export, Download, or GEDCOM.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 506
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "חפשו תחת הגדרות, כלים או שיתוף את האפשרות ייצוא, הורדה או GEDCOM."
+      }
+    },
+    {
+      "text": "Maiden name",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 241
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שם נעורים"
+      }
+    },
+    {
+      "text": "Male",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 248
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "זכר"
+      }
+    },
+    {
+      "text": "Mark the person this story is about, so the rest of the wizard knows who is at its centre.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 327
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "סמנו את האדם שעליו הסיפור, כדי ששאר שלבי האשף יֵדעו מי עומד במרכזו."
+      }
+    },
+    {
+      "text": "Name a face in Collection to use it here",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 226
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "תנו שם לפנים בשלב האיסוף כדי להשתמש בהן כאן"
+      }
+    },
+    {
+      "text": "No named faces yet. In",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 233
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אין עדיין פנים עם שם. בשלב"
+      }
+    },
+    {
+      "text": "No people found in that file. Is it a GEDCOM (.ged) export?",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 199
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "לא נמצאו אנשים בקובץ הזה. האם זהו קובץ ייצוא מסוג GEDCOM (.ged)?"
+      }
+    },
+    {
+      "text": "No tree anywhere yet?",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 513
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אין לכם עדיין עץ בשום מקום?"
+      }
+    },
+    {
+      "text": "Nobody matches \"{q}\".",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 138
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אף אחד לא תואם ל„{q}”."
+      }
+    },
+    {
+      "text": "Not connected to anyone yet.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 304
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "עדיין לא מקושר לאף אחד."
+      }
+    },
+    {
+      "text": "Not linked yet",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 117
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "עדיין לא מקושר"
+      }
+    },
+    {
+      "text": "Not recorded",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 246
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "לא נרשם"
+      }
+    },
+    {
+      "text": "Notes",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 275
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הערות"
+      }
+    },
+    {
+      "text": "Occupation",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 271
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "עיסוק"
+      }
+    },
+    {
+      "text": "One file holding people, dates, places, and the relationships between them. Nearly every family-tree app can write one, which is what makes it possible to move a tree between them without retyping anything.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 494
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "קובץ אחד שמכיל אנשים, תאריכים, מקומות והקשרים ביניהם. כמעט כל תוכנה לעצי משפחה יודעת לכתוב אותו, וזה מה שמאפשר להעביר עץ מתוכנה לתוכנה בלי להקליד הכול מחדש."
+      }
+    },
+    {
+      "text": "Open the app or site where the tree already lives.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 505
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "פתחו את האתר או התוכנה שבהם העץ כבר נמצא."
+      }
+    },
+    {
+      "text": "parent of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 332
+        },
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 420
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הורה של"
+      }
+    },
+    {
+      "text": "Parent of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 118
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הורה של"
+      }
+    },
+    {
+      "text": "partner of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 419
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בן/בת זוג של"
+      }
+    },
+    {
+      "text": "Partner of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 331
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "בן/בת זוג של"
+      }
+    },
+    {
+      "text": "People ({n})",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 326
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אנשים ({n})"
+      }
+    },
+    {
+      "text": "People you've already named while tagging photographs. Pick anyone to add them to the tree.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 91
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אנשים שכבר נתתם להם שם בזמן תיוג התצלומים. בחרו את מי שתרצו כדי להוסיף אותו לעץ."
+      }
+    },
+    {
+      "text": "Person",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 383
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אדם"
+      }
+    },
+    {
+      "text": "Place of death",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 266
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מקום הפטירה"
+      }
+    },
+    {
+      "text": "Recorded for the genealogy file",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 244
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "נרשם לצורך קובץ הגנאלוגיה"
+      }
+    },
+    {
+      "text": "Relationship",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 371
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "קשר"
+      }
+    },
+    {
+      "text": "Relationships",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 294
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "קשרי משפחה"
+      }
+    },
+    {
+      "text": "Remove",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 336
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 433
+        },
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 323
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הסרה"
+      }
+    },
+    {
+      "text": "Remove portrait",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 215
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "הסרת התמונה"
+      }
+    },
+    {
+      "text": "Right-click anyone to add a relative beside them. Dashed lines are partners.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 315
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "לחצו לחיצה ימנית על אדם כדי להוסיף לידו קרוב משפחה. קו מקווקו מסמן בני זוג."
+      }
+    },
+    {
+      "text": "Save changes",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 443
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שמירת השינויים"
+      }
+    },
+    {
+      "text": "Save the file — it ends in",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 508
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שמרו את הקובץ — הסיומת שלו היא"
+      }
+    },
+    {
+      "text": "Saved.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 370
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "נשמר."
+      }
+    },
+    {
+      "text": "Search people already in the tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 127
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "חיפוש אנשים שכבר בעץ"
+      }
+    },
+    {
+      "text": "Sex",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 244
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מין"
+      }
+    },
+    {
+      "text": "Short for Genealogical Data Communication.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 492
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ראשי תיבות של Genealogical Data Communication."
+      }
+    },
+    {
+      "text": "sibling of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 341
+        },
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 426
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אח/ות של"
+      }
+    },
+    {
+      "text": "Sibling of",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 120
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אח/ות של"
+      }
+    },
+    {
+      "text": "someone",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 323
+        },
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 412
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מישהו"
+      }
+    },
+    {
+      "text": "Start from scratch",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 478
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "התחלה מאפס"
+      }
+    },
+    {
+      "text": "that person",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/familyTree.ts",
+          "line": 228
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "האדם הזה"
+      }
+    },
+    {
+      "text": "The tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 314
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "העץ"
+      }
+    },
+    {
+      "text": "There's nobody else in the tree yet.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 137
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "אין עדיין אף אחד אחר בעץ."
+      }
+    },
+    {
+      "text": "Unmark",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 705
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "ביטול סימון"
+      }
+    },
+    {
+      "text": "Unsaved changes — save before leaving.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 367
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "יש שינויים שלא נשמרו — שמרו לפני שתעברו הלאה."
+      }
+    },
+    {
+      "text": "Use the faces you've named",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 466
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שימוש בפנים שכבר נתתם להן שם"
+      }
+    },
+    {
+      "text": "Use this portrait",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 201
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "שימוש בתמונה הזו"
+      }
+    },
+    {
+      "text": "What's a GEDCOM file?",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 492
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "מה זה קובץ GEDCOM?"
+      }
+    },
+    {
+      "text": "Who the story sits inside. Bring in a tree you already keep somewhere else, or add the few people the story turns on — a handful of names is worth as much here as a full genealogy. Skipping this changes nothing else in the wizard.",
+      "usedIn": [
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 253
+        }
+      ],
+      "screen": "Family tree",
+      "translations": {
+        "he": "המשפחה עליה הסיפור נסוב. הביאו עץ שאתם כבר מנהלים במקום אחר, או הוסיפו את מעט האנשים שבמרכז הסיפור — חופן שמות שווה כאן בדיוק כמו גנאלוגיה מלאה. דילוג על השלב הזה לא משנה דבר בשאר האשף."
+      }
+    },
+    {
+      "text": "A walkthrough, start to finish",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 312
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מדריך מלא, מההתחלה ועד הסוף"
+      }
+    },
+    {
+      "text": "build",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 87
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "בילד"
+      }
+    },
+    {
+      "text": "Catalog",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 394
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "קטלוג"
+      }
+    },
+    {
+      "text": "Everything in this version",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 98
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "כל מה שיש בגרסה הזו"
+      }
+    },
+    {
+      "text": "Example stories",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 264
+        },
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 30
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "סיפורים לדוגמה"
+      }
+    },
+    {
+      "text": "files",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 93
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "קבצים"
+      }
+    },
+    {
+      "text": "Guides and materials",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 351
+        },
+        {
+          "file": "app/src/features/resources/ResourcesPage.tsx",
+          "line": 76
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מדריכים וחומרים"
+      }
+    },
+    {
+      "text": "How to use the Studio",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 309
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "איך משתמשים בסטודיו"
+      }
+    },
+    {
+      "text": "Kits to download",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 354
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "ערכות להורדה"
+      }
+    },
+    {
+      "text": "Local database",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 396
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מסד נתונים מקומי"
+      }
+    },
+    {
+      "text": "Optional",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 96
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 249
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "לא חובה"
+      }
+    },
+    {
+      "text": "Presentation",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 262
+        },
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 116
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מצגת"
+      }
+    },
+    {
+      "text": "Release history",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 147
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "היסטוריית גרסאות"
+      }
+    },
+    {
+      "text": "Reporting issues",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 125
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "דיווח על תקלות"
+      }
+    },
+    {
+      "text": "Sign in",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 425
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "התחברות"
+      }
+    },
+    {
+      "text": "Sign out",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 410
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "התנתקות"
+      }
+    },
+    {
+      "text": "Storage",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 29
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "אחסון"
+      }
+    },
+    {
+      "text": "Story",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 32
+        },
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 951
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "הסיפור"
+      }
+    },
+    {
+      "text": "Story Studio",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 128
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "סטודיו הסיפורים"
+      }
+    },
+    {
+      "text": "The conversation",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 270
+        },
+        {
+          "file": "app/src/features/presentation/ConversationPage.tsx",
+          "line": 53
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "השיחה"
+      }
+    },
+    {
+      "text": "Turn off issue reporting",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 141
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "כיבוי דיווח על תקלות"
+      }
+    },
+    {
+      "text": "Turn on issue reporting",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 141
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "הפעלת דיווח על תקלות"
+      }
+    },
+    {
+      "text": "Turn this on to point at anything on the page and describe what is wrong with it. Reports stay in this browser until you export them.",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 127
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "הפעילו כדי להצביע על כל דבר בדף ולתאר מה לא בסדר בו. הדיווחים נשארים בדפדפן הזה עד שתייצאו אותם."
+      }
+    },
+    {
+      "text": "Version",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 87
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "גרסה"
+      }
+    },
+    {
+      "text": "What the Studio does today. The releases below are how it got here.",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 100
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מה הסטודיו עושה היום. הגרסאות שלמטה הן הדרך לכאן."
+      }
+    },
+    {
+      "text": "What's new",
+      "usedIn": [
+        {
+          "file": "app/src/app/VersionBadge.tsx",
+          "line": 85
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "מה חדש"
+      }
+    },
+    {
+      "text": "You're browsing the example stories. Sign in to build one of your own.",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 418
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "אתם מעיינים בסיפורים לדוגמה. התחברו כדי לבנות סיפור משלכם."
+      }
+    },
+    {
+      "text": "Zikaron BaSalon",
+      "usedIn": [
+        {
+          "file": "app/src/app/AppSidebar.tsx",
+          "line": 126
+        },
+        {
+          "file": "app/src/features/tutorial/TutorialPage.tsx",
+          "line": 59
+        }
+      ],
+      "screen": "Navigation and chrome",
+      "translations": {
+        "he": "זיכרון בסלון"
+      }
+    },
+    {
+      "text": "Continue",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 186
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "המשך"
+      }
+    },
+    {
+      "text": "e.g. granddaughter of Yosef Rosen",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 175
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "למשל: נכדתו של יוסף רוזן"
+      }
+    },
+    {
+      "text": "English",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 164
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "אנגלית"
+      }
+    },
+    {
+      "text": "Family member",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 24
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "בן או בת משפחה"
+      }
+    },
+    {
+      "text": "Gathering a relative's story",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 24
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "אוספים את סיפורו של קרוב משפחה"
+      }
+    },
+    {
+      "text": "Hebrew",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 164
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "עברית"
+      }
+    },
+    {
+      "text": "Host",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 25
+        }
+      ],
+      "screen": "Registration",
+      "note": "REVIEW: the organisation's own word for the person who runs an evening at home.",
+      "translations": {
+        "he": "מארח/ת"
+      }
+    },
+    {
+      "text": "I'm here as a...",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 112
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "אני כאן בתור..."
+      }
+    },
+    {
+      "text": "One quick step",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 100
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "צעד קצר אחד"
+      }
+    },
+    {
+      "text": "Preferred language",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 153
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "שפה מועדפת"
+      }
+    },
+    {
+      "text": "Presenting an evening",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 25
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "מעבירים מפגש בסלון"
+      }
+    },
+    {
+      "text": "Registration",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 100
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "הרשמה"
+      }
+    },
+    {
+      "text": "Relationship to the story (optional)",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 171
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "הקשר שלכם לסיפור (לא חובה)"
+      }
+    },
+    {
+      "text": "Reviewing on the team's behalf",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 26
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "בודקים את התכנים מטעם הצוות"
+      }
+    },
+    {
+      "text": "So the team knows who they're working with before any story starts.",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 107
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "כדי שהצוות יֵדע עם מי הוא עובד עוד לפני שמתחילים לאסוף סיפור."
+      }
+    },
+    {
+      "text": "Something went wrong. Try again.",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 62
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "משהו השתבש. נסו שוב."
+      }
+    },
+    {
+      "text": "Tell us who you are",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 104
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "ספרו לנו מי אתם"
+      }
+    },
+    {
+      "text": "Your details",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 104
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "הפרטים שלך"
+      }
+    },
+    {
+      "text": "Zikaron BaSalon staff",
+      "usedIn": [
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 26
+        }
+      ],
+      "screen": "Registration",
+      "translations": {
+        "he": "צוות זיכרון בסלון"
+      }
+    },
+    {
+      "text": "Answer these for your own story",
+      "usedIn": [
+        {
+          "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+          "line": 168
+        }
+      ],
+      "screen": "Testimony navigator",
+      "translations": {
+        "he": "ענו על אלה לסיפור שלכם"
+      }
+    },
+    {
+      "text": "of",
+      "usedIn": [
+        {
+          "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+          "line": 44
+        }
+      ],
+      "screen": "Testimony navigator",
+      "translations": {
+        "he": "מתוך"
+      }
+    },
+    {
+      "text": "questions answered by this recording.",
+      "usedIn": [
+        {
+          "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+          "line": 46
+        }
+      ],
+      "screen": "Testimony navigator",
+      "translations": {
+        "he": "שאלות שההקלטה הזו עונה עליהן."
+      }
+    },
+    {
+      "text": "This testimony worked backwards through the same questions the Collection Wizard asks. Each answer links to the chapter it came from — open one to watch that moment. Questions left blank are ones a recording alone can't answer; those are the parts a family brings themselves.",
+      "usedIn": [
+        {
+          "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+          "line": 40
+        }
+      ],
+      "screen": "Testimony navigator",
+      "translations": {
+        "he": "העדות הזו פורקה לאחור דרך אותן שאלות שאשף האיסוף שואל. כל תשובה מקשרת לפרק שממנו היא נלקחה — פתחו אחת כדי לצפות באותו רגע. שאלות שנותרו ריקות הן כאלה שהקלטה לבדה לא יכולה לענות עליהן; אלה החלקים שהמשפחה מביאה בעצמה."
+      }
+    },
+    {
+      "text": ", along with the catalog.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 56
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": ", יחד עם הקטלוג."
+      }
+    },
+    {
+      "text": ", leaving {n} that were already here",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 54
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": ", {n} שכבר היו כאן נותרו כפי שהם"
+      }
+    },
+    {
+      "text": ". This folder already had a catalog, so it was kept.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 57
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": ". בתיקייה הזו כבר היה קטלוג, והוא נשמר."
+      }
+    },
+    {
+      "text": "{n} days ago",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 143
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לפני {n} ימים"
+      }
+    },
+    {
+      "text": "{n} file found",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 489
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נמצא קובץ אחד"
+      }
+    },
+    {
+      "text": "{n} files found",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 489
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נמצאו {n} קבצים"
+      }
+    },
+    {
+      "text": "{n} hour ago",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 141
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לפני שעה"
+      }
+    },
+    {
+      "text": "{n} hours ago",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 141
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לפני {n} שעות"
+      }
+    },
+    {
+      "text": "{n} in folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 498
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} בתיקייה"
+      }
+    },
+    {
+      "text": "{n} material was added from outside this folder, so it isn't saved anywhere yet. Copy it in to keep it with the rest of the story.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 546
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חומר אחד נוסף מחוץ לתיקייה הזו, ולכן הוא עדיין לא שמור בשום מקום. העתיקו אותו פנימה כדי לשמור אותו יחד עם שאר הסיפור."
+      }
+    },
+    {
+      "text": "{n} materials were added from outside this folder, so they aren't saved anywhere yet. Copy them in to keep them with the rest of the story.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 546
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} חומרים נוספו מחוץ לתיקייה הזו, ולכן הם עדיין לא שמורים בשום מקום. העתיקו אותם פנימה כדי לשמור אותם יחד עם שאר הסיפור."
+      }
+    },
+    {
+      "text": "{n} minute ago",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 139
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לפני דקה"
+      }
+    },
+    {
+      "text": "{n} minutes ago",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 139
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לפני {n} דקות"
+      }
+    },
+    {
+      "text": "{n} not found",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 500
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} לא נמצאו"
+      }
+    },
+    {
+      "text": "{n} people.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 178
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} אנשים."
+      }
+    },
+    {
+      "text": "{n} person.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 178
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אדם אחד."
+      }
+    },
+    {
+      "text": "{n} photo from the collection.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 233
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תצלום אחד מתוך האיסוף."
+      }
+    },
+    {
+      "text": "{n} photos from the collection.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 233
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} תצלומים מתוך האיסוף."
+      }
+    },
+    {
+      "text": "{n} removed",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 499
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} הוסרו"
+      }
+    },
+    {
+      "text": "{n} removed from this story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 843
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} הוסרו מהסיפור הזה"
+      }
+    },
+    {
+      "text": "{n} selected files",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 139
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "{n} קבצים שנבחרו"
+      }
+    },
+    {
+      "text": "A PowerPoint running order for the evening — edit it in PowerPoint, Keynote or Slides.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 117
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "סדר מפגש כמצגת PowerPoint — אפשר לערוך אותה ב-PowerPoint, ב-Keynote או ב-Slides."
+      }
+    },
+    {
+      "text": "Add a folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 819
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הוספת תיקייה"
+      }
+    },
+    {
+      "text": "Add a tag and press Enter",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 391
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הוסיפו תגית והקישו Enter"
+      }
+    },
+    {
+      "text": "Add an event",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 194
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הוספת אירוע"
+      }
+    },
+    {
+      "text": "Add files",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 813
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הוספת קבצים"
+      }
+    },
+    {
+      "text": "Add materials",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 830
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הוספת חומרים"
+      }
+    },
+    {
+      "text": "all {n} parts",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 105
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "את כל {n} החלקים"
+      }
+    },
+    {
+      "text": "another folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 357
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תיקייה אחרת"
+      }
+    },
+    {
+      "text": "another folder on this device",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 132
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 221
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 465
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תיקייה אחרת במכשיר הזה"
+      }
+    },
+    {
+      "text": "Answers gathered so far, section by section.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 249
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "התשובות שנאספו עד כה, חלק אחר חלק."
+      }
+    },
+    {
+      "text": "appears in {n} material",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 63
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מופיע בחומר אחד"
+      }
+    },
+    {
+      "text": "appears in {n} materials",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 63
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מופיע ב-{n} חומרים"
+      }
+    },
+    {
+      "text": "Article",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 127
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כתבה"
+      }
+    },
+    {
+      "text": "Audio",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 1091
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הקלטה"
+      }
+    },
+    {
+      "text": "Backup and move",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/CatalogPage.tsx",
+          "line": 196
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "גיבוי והעברה"
+      }
+    },
+    {
+      "text": "Break it into specific moments, and attach whatever material belongs to each one.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 179
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "פרקו אותו לרגעים מסוימים, וצרפו לכל אחד מהם את החומר ששייך לו."
+      }
+    },
+    {
+      "text": "Built here on your own device and saved straight to it — nothing is uploaded anywhere.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 168
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נבנה כאן על המכשיר שלכם ונשמר ישירות אליו — שום דבר לא מועלה לשום מקום."
+      }
+    },
+    {
+      "text": "Cancel",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 114
+        },
+        {
+          "file": "app/src/features/familytree/FacePicker.tsx",
+          "line": 192
+        },
+        {
+          "file": "app/src/features/familytree/PersonDialog.tsx",
+          "line": 440
+        },
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 145
+        },
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 158
+        },
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 257
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ביטול"
+      }
+    },
+    {
+      "text": "Centred on {name}.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 183
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "במרכז: {name}."
+      }
+    },
+    {
+      "text": "Change location",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 522
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שינוי מיקום"
+      }
+    },
+    {
+      "text": "Choose a folder from this device",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 20
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "בחרו תיקייה מהמכשיר הזה"
+      }
+    },
+    {
+      "text": "Choose files directly",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 345
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "בחירת קבצים ישירות"
+      }
+    },
+    {
+      "text": "Clear",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 104
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "למחוק"
+      }
+    },
+    {
+      "text": "Clearing...",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 111
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מוחק..."
+      }
+    },
+    {
+      "text": "Clears the folders and files this browser is holding on to, so the next connection starts clean. Nothing on your device is deleted — only what the Studio remembers.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 422
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מנקה את התיקיות והקבצים שהדפדפן הזה מחזיק, כך שהחיבור הבא מתחיל נקי. שום דבר במכשיר שלכם לא נמחק — רק מה שהסטודיו זוכר."
+      }
+    },
+    {
+      "text": "Close",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ComingSoonDialog.tsx",
+          "line": 51
+        },
+        {
+          "file": "app/src/features/familytree/ConnectDialog.tsx",
+          "line": 95
+        },
+        {
+          "file": "app/src/features/report/IssueReporter.tsx",
+          "line": 309
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "סגירה"
+      }
+    },
+    {
+      "text": "Collection Wizard",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 205
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אשף האיסוף"
+      }
+    },
+    {
+      "text": "Coming soon",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ComingSoonDialog.tsx",
+          "line": 49
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "בקרוב"
+      }
+    },
+    {
+      "text": "Connect a folder first — that's where the story will be restored to.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 392
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חברו קודם תיקייה — לשם הסיפור ישוחזר."
+      }
+    },
+    {
+      "text": "Connect a location once, and everything in it becomes available to tag, review, and carry into the presentation later.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 213
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חברו מיקום פעם אחת, וכל מה שנמצא בו יהיה זמין לתיוג, לעיון ולשילוב במצגת בהמשך."
+      }
+    },
+    {
+      "text": "Continue to the family tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 924
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "המשך לעץ המשפחה"
+      }
+    },
+    {
+      "text": "Continue with",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 238
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "המשך עם"
+      }
+    },
+    {
+      "text": "Continuing a story from elsewhere",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 361
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "המשך סיפור ממחשב אחר"
+      }
+    },
+    {
+      "text": "Copy",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 1814
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "העתקה"
+      }
+    },
+    {
+      "text": "Copy into folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 553
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "העתקה לתיקייה"
+      }
+    },
+    {
+      "text": "Couldn't connect. Try again.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 130
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "החיבור נכשל. נסו שוב."
+      }
+    },
+    {
+      "text": "Couldn't copy files in",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 262
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 262
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו להעתיק את הקבצים פנימה"
+      }
+    },
+    {
+      "text": "Couldn't discard the saved copy.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 66
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו למחוק את העותק השמור."
+      }
+    },
+    {
+      "text": "Couldn't load saved metadata",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 276
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 277
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לטעון את המטא-דאטה השמורה"
+      }
+    },
+    {
+      "text": "Couldn't reconnect to Google Drive.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 184
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ההתחברות מחדש ל-Google Drive נכשלה."
+      }
+    },
+    {
+      "text": "Couldn't reconnect. Try again.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 162
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ההתחברות מחדש נכשלה. נסו שוב."
+      }
+    },
+    {
+      "text": "Couldn't remove \"{name}\"",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 151
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו להסיר את „{name}”"
+      }
+    },
+    {
+      "text": "Couldn't remove material",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 152
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו להסיר את החומר"
+      }
+    },
+    {
+      "text": "Couldn't reset the story. Nothing was cleared.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 41
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "איפוס הסיפור נכשל. שום דבר לא נמחק."
+      }
+    },
+    {
+      "text": "Couldn't restore",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 169
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 250
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "השחזור נכשל"
+      }
+    },
+    {
+      "text": "Couldn't restore material",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 169
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לשחזר את החומר"
+      }
+    },
+    {
+      "text": "Couldn't restore materials",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 250
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לשחזר את החומרים"
+      }
+    },
+    {
+      "text": "Couldn't restore the story. Your copy is still saved — try again.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 55
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שחזור הסיפור נכשל. העותק שלכם עדיין שמור — נסו שוב."
+      }
+    },
+    {
+      "text": "Couldn't save \"{name}\"",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 473
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לשמור את „{name}”"
+      }
+    },
+    {
+      "text": "Couldn't save changes",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 474
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לשמור את השינויים"
+      }
+    },
+    {
+      "text": "Couldn't save everything",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 235
+        },
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 235
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "לא הצלחנו לשמור את הכול"
+      }
+    },
+    {
+      "text": "Document",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 1094
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מסמך"
+      }
+    },
+    {
+      "text": "Drafted from these materials — check anything labelled:",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SourceChip.tsx",
+          "line": 120
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נוסח מתוך החומרים האלה — בדקו כל דבר שמסומן:"
+      }
+    },
+    {
+      "text": "Drafted from this material — check anything labelled:",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SourceChip.tsx",
+          "line": 119
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נוסח מתוך החומר הזה — בדקו כל דבר שמסומן:"
+      }
+    },
+    {
+      "text": "Event title, e.g. 'The night they left the ghetto'",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 293
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כותרת האירוע, למשל: „הלילה שבו יצאו מהגטו”"
+      }
+    },
+    {
+      "text": "Events in this part of the story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 178
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אירועים בחלק הזה של הסיפור"
+      }
+    },
+    {
+      "text": "Events, in the order they appear across the story.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 221
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אירועים, לפי סדר הופעתם לאורך הסיפור."
+      }
+    },
+    {
+      "text": "Every answer, moment and attached resource is still saved and can be put back.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 83
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כל תשובה, רגע וחומר מצורף עדיין שמורים ואפשר להחזיר אותם."
+      }
+    },
+    {
+      "text": "Everything below as a printable PDF — the tree stays sharp at any size.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 110
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כל מה שלמטה כקובץ PDF להדפסה — העץ נשאר חד בכל גודל."
+      }
+    },
+    {
+      "text": "Everything gathered so far, pulled into one place — nothing here has been reviewed or published yet.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 163
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כל מה שנאסף עד כה, במקום אחד — שום דבר כאן עדיין לא נבדק ולא פורסם."
+      }
+    },
+    {
+      "text": "Export story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/CatalogPage.tsx",
+          "line": 202
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ייצוא הסיפור"
+      }
+    },
+    {
+      "text": "Extract text",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 1668
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חילוץ טקסט"
+      }
+    },
+    {
+      "text": "Family tree",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 176
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 236
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "עץ המשפחה"
+      }
+    },
+    {
+      "text": "File not found",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 768
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הקובץ לא נמצא"
+      }
+    },
+    {
+      "text": "Forget remembered folders",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 419
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שכחו את התיקיות שנשמרו"
+      }
+    },
+    {
+      "text": "I've rewritten this — remove the label",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SourceChip.tsx",
+          "line": 75
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כתבתי את זה מחדש — הסירו את הסימון"
+      }
+    },
+    {
+      "text": "If you exported a story on another computer, connect the folder you want it to live in above, then restore the archive into it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 363
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אם ייצאתם סיפור במחשב אחר, חברו למעלה את התיקייה שבה הוא יישמר, ואז שחזרו אליה את הארכיון."
+      }
+    },
+    {
+      "text": "If your browser doesn't support folder picking",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 347
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אם הדפדפן שלכם לא תומך בבחירת תיקייה"
+      }
+    },
+    {
+      "text": "Images",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 232
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תמונות"
+      }
+    },
+    {
+      "text": "Import failed",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 60
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הייבוא נכשל"
+      }
+    },
+    {
+      "text": "just now",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 137
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ממש עכשיו"
+      }
+    },
+    {
+      "text": "Keep it cleared",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 91
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "להשאיר מחוק"
+      }
+    },
+    {
+      "text": "Keeps each file's folder and path",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 821
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שומר לכל קובץ את התיקייה והנתיב שלו"
+      }
+    },
+    {
+      "text": "Keepsake booklet",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 109
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חוברת מזכרת"
+      }
+    },
+    {
+      "text": "Location",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/CatalogPage.tsx",
+          "line": 14
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מקום"
+      }
+    },
+    {
+      "text": "Make something from this story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 167
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ליצור משהו מהסיפור הזה"
+      }
+    },
+    {
+      "text": "Map",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 210
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מפה"
+      }
+    },
+    {
+      "text": "Material from this moment",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 340
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חומר מהרגע הזה"
+      }
+    },
+    {
+      "text": "No materials match \"{q}\".",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 692
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אין חומרים שתואמים ל„{q}”."
+      }
+    },
+    {
+      "text": "Nothing here is used until a person reviews it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 904
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שום דבר כאן לא משמש עד שאדם בודק אותו."
+      }
+    },
+    {
+      "text": "Nothing is waiting on them in the meantime: reading a PDF's text, finding faces, tags, notes, places, the family tree and the catalog all work now, on your own device.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ComingSoonDialog.tsx",
+          "line": 67
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "בינתיים שום דבר לא מחכה להן: חילוץ טקסט מ-PDF, זיהוי פנים, תגיות, הערות, מקומות, עץ המשפחה והקטלוג — הכול עובד כבר עכשיו, על המכשיר שלכם."
+      }
+    },
+    {
+      "text": "of the story — every answer, every moment, and every attached resource? Your materials, tags and family tree are untouched, and this can be undone afterwards.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 106
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "של הסיפור — כל תשובה, כל רגע וכל חומר מצורף? החומרים, התגיות ועץ המשפחה שלכם לא ייגעו, ואפשר לבטל את הפעולה אחר כך."
+      }
+    },
+    {
+      "text": "Photo",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 1090
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תצלום"
+      }
+    },
+    {
+      "text": "Photos, letters, or recordings that belong to this section as a whole.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 168
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תצלומים, מכתבים או הקלטות ששייכים לחלק הזה בכללותו."
+      }
+    },
+    {
+      "text": "Pick a folder from a Google account",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 322
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "בחרו תיקייה מחשבון Google"
+      }
+    },
+    {
+      "text": "Places associated with this story.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 210
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מקומות שקשורים לסיפור הזה."
+      }
+    },
+    {
+      "text": "Put all back",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 854
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "החזרת הכול"
+      }
+    },
+    {
+      "text": "Put back",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 879
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "החזרה"
+      }
+    },
+    {
+      "text": "Putting it back...",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 88
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מחזיר..."
+      }
+    },
+    {
+      "text": "Putting one back restores the material, but its tags and notes were cleared when it was removed.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 884
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "החזרה משחזרת את החומר, אבל התגיות וההערות שלו נמחקו כשהוא הוסר."
+      }
+    },
+    {
+      "text": "Questions",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 120
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שאלות"
+      }
+    },
+    {
+      "text": "Read again",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 1668
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "קריאה מחדש"
+      }
+    },
+    {
+      "text": "Reading…",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 42
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "קורא…"
+      }
+    },
+    {
+      "text": "Remove event",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 308
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הסרת האירוע"
+      }
+    },
+    {
+      "text": "Remove from story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 793
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הסרה מהסיפור"
+      }
+    },
+    {
+      "text": "Reset the whole story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 125
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "איפוס הסיפור כולו"
+      }
+    },
+    {
+      "text": "Resources",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/CatalogPage.tsx",
+          "line": 244
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "משאבים"
+      }
+    },
+    {
+      "text": "Resources for this part of the story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 167
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חומרים לחלק הזה של הסיפור"
+      }
+    },
+    {
+      "text": "Restore from an export",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 372
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שחזור מקובץ ייצוא"
+      }
+    },
+    {
+      "text": "Restored {n} material into this folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 51
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שוחזר חומר אחד לתיקייה הזו"
+      }
+    },
+    {
+      "text": "Restored {n} materials into this folder",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 51
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שוחזרו {n} חומרים לתיקייה הזו"
+      }
+    },
+    {
+      "text": "Resume",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 251
+        },
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 260
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "המשך"
+      }
+    },
+    {
+      "text": "Save",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 203
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 361
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שמירה"
+      }
+    },
+    {
+      "text": "Save all to disk",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 519
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שמירת הכול לדיסק"
+      }
+    },
+    {
+      "text": "Saved",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 508
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נשמר"
+      }
+    },
+    {
+      "text": "Saved in this story from {origin}. Add it again to restore it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 773
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שמור בסיפור הזה, מתוך {origin}. הוסיפו אותו שוב כדי לשחזר אותו."
+      }
+    },
+    {
+      "text": "Saved in this story. Add it again to restore it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 777
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שמור בסיפור הזה. הוסיפו אותו שוב כדי לשחזר אותו."
+      }
+    },
+    {
+      "text": "Saved to {file} in this folder, alongside your materials.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/metaStore.ts",
+          "line": 50
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נשמר לקובץ {file} בתיקייה הזו, לצד החומרים שלכם."
+      }
+    },
+    {
+      "text": "Saved to your account.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/metaStore.ts",
+          "line": 51
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "נשמר לחשבון שלכם."
+      }
+    },
+    {
+      "text": "Saving...",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 197
+        },
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 203
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 361
+        },
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 186
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "שומר..."
+      }
+    },
+    {
+      "text": "Search by name, tag, or note",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 581
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חיפוש לפי שם, תגית או הערה"
+      }
+    },
+    {
+      "text": "Search materials by name to attach",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResourcePicker.tsx",
+          "line": 101
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "חפשו חומרים לפי שם כדי לצרף"
+      }
+    },
+    {
+      "text": "Show all",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 609
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הצגת הכול"
+      }
+    },
+    {
+      "text": "Showing {n} material",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 598
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מוצג חומר אחד"
+      }
+    },
+    {
+      "text": "Showing {n} materials",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 598
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מוצגים {n} חומרים"
+      }
+    },
+    {
+      "text": "Skip to the guided interview",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 921
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "דילוג לראיון המונחה"
+      }
+    },
+    {
+      "text": "Summary",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 158
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "סיכום"
+      }
+    },
+    {
+      "text": "Tags",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/CatalogPage.tsx",
+          "line": 12
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תגיות"
+      }
+    },
+    {
+      "text": "Tap a face to see only the materials they appear in",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 597
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הקישו על פנים כדי לראות רק את החומרים שבהם הם מופיעים"
+      }
+    },
+    {
+      "text": "The AI features aren't switched on yet. Zikaron BaSalon is setting up the account they'll run on, and they'll appear here once that's in place.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ComingSoonDialog.tsx",
+          "line": 57
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "תכונות הבינה המלאכותית עדיין לא פעילות. זיכרון בסלון מסדירים את החשבון שעליו הן יפעלו, והן יופיעו כאן ברגע שזה יושלם."
+      }
+    },
+    {
+      "text": "The archive is very large",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 386
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הקובץ גדול מאוד"
+      }
+    },
+    {
+      "text": "The same story as text, for an email or a newsletter.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 128
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אותו סיפור כטקסט, למייל או לניוזלטר."
+      }
+    },
+    {
+      "text": "The story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 249
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הסיפור"
+      }
+    },
+    {
+      "text": "The story was cleared {when}.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 82
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הסיפור נמחק {when}."
+      }
+    },
+    {
+      "text": "This device",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 153
+        },
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 241
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "המכשיר הזה"
+      }
+    },
+    {
+      "text": "This story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 77
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 664
+        },
+        {
+          "file": "app/src/features/familytree/FamilyTreePage.tsx",
+          "line": 705
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "הסיפור הזה"
+      }
+    },
+    {
+      "text": "Timeline",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 221
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ציר זמן"
+      }
+    },
+    {
+      "text": "Undo the reset",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 88
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ביטול האיפוס"
+      }
+    },
+    {
+      "text": "Unnamed",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 681
+        },
+        {
+          "file": "app/src/features/profile/ProfilePage.tsx",
+          "line": 47
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "ללא שם"
+      }
+    },
+    {
+      "text": "Unnamed person",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 624
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אדם ללא שם"
+      }
+    },
+    {
+      "text": "Video",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialsStep.tsx",
+          "line": 1092
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "סרטון"
+      }
+    },
+    {
+      "text": "What happened, as much as is known",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 324
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מה קרה, ככל שידוע"
+      }
+    },
+    {
+      "text": "When (optional)",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 300
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מתי (לא חובה)"
+      }
+    },
+    {
+      "text": "When they are, this will summarize what a material says, build a timeline, draft the story's answers from a document, and divide a recorded testimony into chapters.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ComingSoonDialog.tsx",
+          "line": 62
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כשזה יקרה, אפשר יהיה לסכם את תוכן החומר, לבנות ציר זמן, לנסח תשובות לסיפור מתוך מסמך, ולחלק עדות מוקלטת לפרקים."
+      }
+    },
+    {
+      "text": "When was it written? Where was it taken? Who is in it? An object is often the easiest way into a story.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 414
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מתי נכתב? היכן צולם? מי מופיע בתמונה? חפץ הוא לרוב הדרך הקלה ביותר להיכנס לסיפור."
+      }
+    },
+    {
+      "text": "Where did this happen? (optional)",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 319
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "היכן זה קרה? (לא חובה)"
+      }
+    },
+    {
+      "text": "Where do this story's materials live?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 210
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "היכן נמצאים החומרים של הסיפור הזה?"
+      }
+    },
+    {
+      "text": "where you left off",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ConnectStep.tsx",
+          "line": 241
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מהמקום שבו הפסקתם"
+      }
+    },
+    {
+      "text": "Who or what is this? Anything worth remembering about it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/MaterialDetail.tsx",
+          "line": 421
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מי או מה זה? כל דבר שראוי לזכור."
+      }
+    },
+    {
+      "text": "Who was here",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/StorySectionPage.tsx",
+          "line": 331
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "מי היה כאן"
+      }
+    },
+    {
+      "text": "With",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/SummaryPage.tsx",
+          "line": 306
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "עם"
+      }
+    },
+    {
+      "text": "Yes, clear the story",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 111
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "כן, למחוק את הסיפור"
+      }
+    },
+    {
+      "text": "yesterday",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/ResetStory.tsx",
+          "line": 143
+        }
+      ],
+      "screen": "The Collection Wizard",
+      "translations": {
+        "he": "אתמול"
+      }
+    },
+    {
+      "text": "A few framing questions before the details — these shape how the rest gets told.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section introduction",
+      "translations": {
+        "he": "כמה שאלות מסגרת לפני הפרטים — הן מעצבות את האופן שבו ייבנה כל השאר."
+      }
+    },
+    {
+      "text": "A message for today",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section tab and heading",
+      "translations": {
+        "he": "מסר למשתתפים"
+      }
+    },
+    {
+      "text": "After the war",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section tab and heading",
+      "translations": {
+        "he": "לאחר המלחמה"
+      }
+    },
+    {
+      "text": "Anything that stayed with them",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (sourceOfStrength)",
+      "translations": {
+        "he": "כל דבר שנשאר איתם"
+      }
+    },
+    {
+      "text": "Birth name, nicknames, any name changes later",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (birthNameAndNicknames)",
+      "translations": {
+        "he": "שם לידה, כינויים, שינויי שם מאוחרים יותר"
+      }
+    },
+    {
+      "text": "Date and place",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (bornWhenWhere)",
+      "translations": {
+        "he": "תאריך ומקום"
+      }
+    },
+    {
+      "text": "Describe the moment, as much as is known",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (difficultDecision)",
+      "translations": {
+        "he": "תארו את הרגע, ככל שידוע"
+      }
+    },
+    {
+      "text": "Did anyone help or support them along the way?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (warYears.whoHelped)",
+      "translations": {
+        "he": "האם היו אנשים שתמכו בה או סייעו לה בדרך כלשהי בזמן המלחמה?"
+      }
+    },
+    {
+      "text": "Did religion, tradition, or culture shape their everyday life?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (lifeBeforeWar.religionAndCulture)",
+      "translations": {
+        "he": "האם דת, מסורת או תרבות היו חלק משגרת חייה? אם כן, כיצד?"
+      }
+    },
+    {
+      "text": "Did they return home after the war?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (afterWar.returnedHome)",
+      "translations": {
+        "he": "האם חזרה לביתה לאחר המלחמה?"
+      }
+    },
+    {
+      "text": "Did they spend time in the displaced persons camps?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (afterWar.displacedPersonsCamps)",
+      "translations": {
+        "he": "האם הגיעה למחנות העקורים?"
+      }
+    },
+    {
+      "text": "e.g. 1938 to 1949",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (timePeriod)",
+      "translations": {
+        "he": "למשל: 1938 עד 1949"
+      }
+    },
+    {
+      "text": "e.g. granddaughter, told to me by my mother",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (relationship)",
+      "translations": {
+        "he": "למשל: נכדה, סופר לי על ידי אמי"
+      }
+    },
+    {
+      "text": "e.g. resilience, quiet courage, the cost of small kindnesses",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (intentionMessage)",
+      "translations": {
+        "he": "למשל: חוסן, אומץ שקט, המחיר של מעשי חסד קטנים"
+      }
+    },
+    {
+      "text": "How, if at all",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (religionAndCulture)",
+      "translations": {
+        "he": "כיצד, אם בכלל"
+      }
+    },
+    {
+      "text": "Liberation is rarely the end of the story — what came next is often the part a family knows best.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section introduction",
+      "translations": {
+        "he": "השחרור הוא רק לעתים רחוקות סוף הסיפור — מה שקרה אחר כך הוא לרוב החלק שהמשפחה מכירה הכי טוב."
+      }
+    },
+    {
+      "text": "Life before the war",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section tab and heading",
+      "translations": {
+        "he": "היכרות עם עולמם – החיים לפני המלחמה"
+      }
+    },
+    {
+      "text": "Names, relationships, occupations",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (family)",
+      "translations": {
+        "he": "שמות, קשרי משפחה, עיסוקים"
+      }
+    },
+    {
+      "text": "Places, moves, separations",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (whereFamilyWas)",
+      "translations": {
+        "he": "מקומות, מעברים, פרידות"
+      }
+    },
+    {
+      "text": "Setting the scene",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section tab and heading",
+      "translations": {
+        "he": "שאלות מרכזיות"
+      }
+    },
+    {
+      "text": "The war years",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section tab and heading",
+      "translations": {
+        "he": "תקופת המלחמה"
+      }
+    },
+    {
+      "text": "Was there a moment they had to make a hard decision?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (warYears.difficultDecision)",
+      "translations": {
+        "he": "תארו רגע שבו נאלצה לקבל החלטה משמעותית או קשה במיוחד."
+      }
+    },
+    {
+      "text": "Was there a song, phrase, or story that gave them strength?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (warYears.sourceOfStrength)",
+      "translations": {
+        "he": "האם היה שיר, סיפור או משפט שנתן לו.ה כוח או נשאר איתה באותה תקופה?"
+      }
+    },
+    {
+      "text": "What did they build afterwards?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (afterWar.rebuildingLife)",
+      "translations": {
+        "he": "בניית חייה — ספרו על חייה לאחר המלחמה, במה עסקה, המשפחה שהקימה."
+      }
+    },
+    {
+      "text": "What do you hope listeners carry with them?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (messageToday.lessonsToTakeAway)",
+      "translations": {
+        "he": "אילו לקחים מהשואה תרצו שהמשתתפים ייקחו איתם הלאה?"
+      }
+    },
+    {
+      "text": "What feeling or message do you want to come through?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (scene.intentionMessage)",
+      "translations": {
+        "he": "אילו רגשות ומסרים אתם מבקשים להעביר?"
+      }
+    },
+    {
+      "text": "What name were they born with, and what were they called growing up?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (lifeBeforeWar.birthNameAndNicknames)",
+      "translations": {
+        "he": "מי הדמות, מה היה שמה, אילו כינויים היו לה, והאם שמה השתנה לאחר המלחמה?"
+      }
+    },
+    {
+      "text": "What they found, or why they couldn't go back",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (returnedHome)",
+      "translations": {
+        "he": "מה מצאו, או מדוע לא יכלו לחזור"
+      }
+    },
+    {
+      "text": "What this story is for, beyond remembering it.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section introduction",
+      "translations": {
+        "he": "למה הסיפור הזה נועד, מעבר לזכירה עצמה."
+      }
+    },
+    {
+      "text": "What time period does this story cover?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (scene.timePeriod)",
+      "translations": {
+        "he": "מהי תקופת הזמן בה מתרחש הסיפור?"
+      }
+    },
+    {
+      "text": "What would you want future generations to take from it?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (messageToday.messageToFutureGenerations)",
+      "translations": {
+        "he": "איזה מסר הייתם רוצים להעביר לדורות הבאים ולאלו המקשיבים לסיפורכם היום?"
+      }
+    },
+    {
+      "text": "What's known about this period — even fragments are worth writing down.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section introduction",
+      "translations": {
+        "he": "אין צורך לענות על כל השאלות — אפילו מענה חלקי יכול לסייע בתהליך הכתיבה."
+      }
+    },
+    {
+      "text": "What's your relationship to the person this story is about?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (scene.relationship)",
+      "translations": {
+        "he": "מה הקשר והחיבור האישי שלכם לדמות המרכזית בסיפור?"
+      }
+    },
+    {
+      "text": "When and where were they born?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (lifeBeforeWar.bornWhenWhere)",
+      "translations": {
+        "he": "מתי והיכן נולדה?"
+      }
+    },
+    {
+      "text": "When did they come to Israel, or emigrate elsewhere?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (afterWar.emigration)",
+      "translations": {
+        "he": "מתי והאם עלתה לישראל או היגרה למדינה אחרת?"
+      }
+    },
+    {
+      "text": "Where they went, and when",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (emigration)",
+      "translations": {
+        "he": "לאן הגיעו, ומתי"
+      }
+    },
+    {
+      "text": "Where was the family during the war?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (warYears.whereFamilyWas)",
+      "translations": {
+        "he": "היכן שהתה הדמות ומשפחתה בזמן המלחמה?"
+      }
+    },
+    {
+      "text": "Where, and for how long",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (displacedPersonsCamps)",
+      "translations": {
+        "he": "היכן, ולכמה זמן"
+      }
+    },
+    {
+      "text": "Who they were before everything changed.",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "section introduction",
+      "translations": {
+        "he": "מי היו לפני שהכול השתנה."
+      }
+    },
+    {
+      "text": "Who were the close and extended family around them?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (lifeBeforeWar.family)",
+      "translations": {
+        "he": "מי היו בני המשפחה הקרובה והמורחבת בחייה? כמה היו, ומה היו שמותיהם ועיסוקיהם?"
+      }
+    },
+    {
+      "text": "Who, and how",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (whoHelped)",
+      "translations": {
+        "he": "מי, וכיצד"
+      }
+    },
+    {
+      "text": "Why does it matter to you to share this now?",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "question (messageToday.whyShareIt)",
+      "translations": {
+        "he": "מדוע חשוב לכם לשתף את הסיפור ולהעביר הלאה את הזיכרון?"
+      }
+    },
+    {
+      "text": "Work, the family they made, the life that followed",
+      "usedIn": [
+        {
+          "file": "app/src/features/collection/storySections.json",
+          "line": null
+        }
+      ],
+      "screen": "The guided interview",
+      "note": "example answer (rebuildingLife)",
+      "translations": {
+        "he": "עבודה, המשפחה שהקימו, החיים שבאו אחר כך"
+      }
+    },
+    {
+      "text": "All example stories",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+          "line": 42
+        },
+        {
+          "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+          "line": 81
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "כל הסיפורים לדוגמה"
+      }
+    },
+    {
+      "text": "An evening has three parts: the testimony, the time together, and the conversation about what the memory asks of us. These are the questions Zikaron BaSalon suggests for the third. Choose any that fit your evening — they'll be included when you print the booklet.",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ConversationPage.tsx",
+          "line": 55
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "למפגש יש שלושה חלקים: עבר — עדות, הווה — זמן שיתוף, ועתיד — שיחה. אלו השאלות שזיכרון בסלון מציעים לחלק השלישי. בחרו את אלה שמתאימות לערב שלכם — הן ייכללו בחוברת המודפסת."
+      }
+    },
+    {
+      "text": "chapters",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 119
+        },
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 119
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "פרקים"
+      }
+    },
+    {
+      "text": "How this becomes a story",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleTabs.tsx",
+          "line": 30
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "איך זה הופך לסיפור"
+      }
+    },
+    {
+      "text": "open in the testimony navigator, which breaks the recording into named chapters your guests can move through themselves.",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 34
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "נפתחים בנווט העדות, שמחלק את ההקלטה לפרקים בעלי שם שהאורחים שלכם יכולים לנוע ביניהם בעצמם."
+      }
+    },
+    {
+      "text": "question chosen",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ConversationPage.tsx",
+          "line": 111
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "שאלה נבחרה"
+      }
+    },
+    {
+      "text": "questions chosen",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ConversationPage.tsx",
+          "line": 111
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "שאלות נבחרו"
+      }
+    },
+    {
+      "text": "Real testimony from past Zikaron BaSalon gatherings, for inspiration as you build your own presentation.",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 32
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "עדויות אמיתיות ממפגשי זיכרון בסלון, להשראה בבניית המצגת שלכם."
+      }
+    },
+    {
+      "text": "Testimony not found",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+          "line": 40
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "העדות לא נמצאה"
+      }
+    },
+    {
+      "text": "Videos marked",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+          "line": 33
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "סרטונים המסומנים ב-"
+      }
+    },
+    {
+      "text": "Watch the testimony",
+      "usedIn": [
+        {
+          "file": "app/src/features/presentation/ExampleTabs.tsx",
+          "line": 26
+        }
+      ],
+      "screen": "The Presentation Wizard",
+      "translations": {
+        "he": "צפייה בעדות"
+      }
+    }
+  ],
+  "computedKeys": [
+    {
+      "file": "app/src/app/AppSidebar.tsx",
+      "line": 196,
+      "expression": "step.label"
+    },
+    {
+      "file": "app/src/features/collection/ConnectStep.tsx",
+      "line": 48,
+      "expression": "text"
+    },
+    {
+      "file": "app/src/features/collection/ConnectStep.tsx",
+      "line": 292,
+      "expression": "provider.displayName"
+    },
+    {
+      "file": "app/src/features/collection/ConnectStep.tsx",
+      "line": 293,
+      "expression": "hint"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 775,
+      "expression": "entry.origin"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 1065,
+      "expression": "kind.label"
+    },
+    {
+      "file": "app/src/features/collection/ResetStory.tsx",
+      "line": 135,
+      "expression": "text"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 115,
+      "expression": "config.title"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 117,
+      "expression": "config.intro"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 137,
+      "expression": "field.label"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 149,
+      "expression": "field.placeholder"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 210,
+      "expression": "prevSection.title"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 215,
+      "expression": "nextSection.title"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 244,
+      "expression": "s.title"
+    },
+    {
+      "file": "app/src/features/collection/SummaryPage.tsx",
+      "line": 81,
+      "expression": "s.title"
+    },
+    {
+      "file": "app/src/features/collection/SummaryPage.tsx",
+      "line": 253,
+      "expression": "f.label"
+    },
+    {
+      "file": "app/src/features/collection/SummaryPage.tsx",
+      "line": 258,
+      "expression": "s.title"
+    },
+    {
+      "file": "app/src/features/familytree/ConnectDialog.tsx",
+      "line": 53,
+      "expression": "relationLabel"
+    },
+    {
+      "file": "app/src/features/familytree/ConnectDialog.tsx",
+      "line": 114,
+      "expression": "option.label"
+    },
+    {
+      "file": "app/src/features/familytree/NodeMenu.tsx",
+      "line": 119,
+      "expression": "option.label"
+    },
+    {
+      "file": "app/src/features/familytree/PersonDialog.tsx",
+      "line": 378,
+      "expression": "option.label"
+    },
+    {
+      "file": "app/src/features/familytree/familyTree.ts",
+      "line": 231,
+      "expression": "text"
+    },
+    {
+      "file": "app/src/features/profile/ProfilePage.tsx",
+      "line": 139,
+      "expression": "r.label"
+    },
+    {
+      "file": "app/src/features/profile/ProfilePage.tsx",
+      "line": 140,
+      "expression": "r.hint"
+    },
+    {
+      "file": "app/src/features/report/IssueReporter.tsx",
+      "line": 242,
+      "expression": "KIND_LABELS[k]"
+    },
+    {
+      "file": "app/src/features/report/IssueReporter.tsx",
+      "line": 321,
+      "expression": "KIND_LABELS[r.kind] ?? r.kind"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 106,
+      "expression": "answer.label"
+    }
+  ],
+  "unwired": {
+    "he": [
+      {
+        "text": "AI actions",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "and",
+        "files": [
+          "app/src/App.tsx",
+          "app/src/app/AppLayout.tsx",
+          "app/src/app/AppSidebar.tsx",
+          "app/src/app/VersionBadge.tsx"
+        ]
+      },
+      {
+        "text": "Document actions",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "Download for Mac or Linux",
+        "files": [
+          "app/src/features/collection/UnpackDialog.tsx"
+        ]
+      },
+      {
+        "text": "Download for Windows",
+        "files": [
+          "app/src/features/collection/UnpackDialog.tsx"
+        ]
+      },
+      {
+        "text": "Fill the story from this",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "Find chapters",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "Import an export",
+        "files": [
+          "app/src/features/collection/CatalogPage.tsx"
+        ]
+      },
+      {
+        "text": "Keep it",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx",
+          "app/src/features/collection/ResetStory.tsx"
+        ]
+      },
+      {
+        "text": "No preview",
+        "files": [
+          "app/src/features/collection/CatalogPage.tsx"
+        ]
+      },
+      {
+        "text": "Not answered in this recording — a family would fill this in themselves.",
+        "files": [
+          "app/src/features/testimony/ExampleStoryPanel.tsx"
+        ]
+      },
+      {
+        "text": "Not connected to anyone yet",
+        "files": [
+          "app/src/features/familytree/PersonDialog.tsx"
+        ]
+      },
+      {
+        "text": "Open on YouTube ↗",
+        "files": [
+          "app/src/features/presentation/ExampleTestimonyPage.tsx"
+        ]
+      },
+      {
+        "text": "Open testimony navigator",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "People",
+        "files": [
+          "app/src/features/collection/MaterialsStep.tsx",
+          "app/src/features/familytree/FacePicker.tsx",
+          "app/src/lib/storage/localFsProvider.ts"
+        ]
+      },
+      {
+        "text": "Summarize",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "The same testimony as a timeline",
+        "files": [
+          "app/src/features/testimony/ExampleStoryPanel.tsx"
+        ]
+      },
+      {
+        "text": "Transcript",
+        "files": [
+          "app/src/features/collection/CatalogPage.tsx",
+          "app/src/features/collection/MaterialDetail.tsx",
+          "app/src/features/collection/materialsMetaService.ts",
+          "app/src/lib/storage/localMetaStore.ts"
+        ]
+      },
+      {
+        "text": "Unpacking a large archive",
+        "files": [
+          "app/src/features/collection/UnpackDialog.tsx"
+        ]
+      },
+      {
+        "text": "Voice to text",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "Where this file is",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      },
+      {
+        "text": "Yes, remove it",
+        "files": [
+          "app/src/features/collection/MaterialDetail.tsx"
+        ]
+      }
+    ]
+  },
+  "orphans": {
+    "he": [
+      "Answer these for your own story →",
+      "Ask about this",
+      "Continue to the guided interview →",
+      "Notes & context"
+    ]
+  },
+  "untranslated": [
+    {
+      "file": "app/src/App.tsx",
+      "line": 40,
+      "text": "Zikaron BaSalon Story Studio",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/App.tsx",
+      "line": 42,
+      "text": "app/.env.local",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/App.tsx",
+      "line": 42,
+      "text": "from the\n          Firebase console, then restart",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/App.tsx",
+      "line": 43,
+      "text": "npm run dev",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/app/AppSidebar.tsx",
+      "line": 134,
+      "text": "zikaronbasalon.com ↗",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/app/VersionBadge.tsx",
+      "line": 26,
+      "text": "v · build",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/app/VersionBadge.tsx",
+      "line": 85,
+      "text": "Close",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/app/VersionBadge.tsx",
+      "line": 99,
+      "text": "section.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/app/VersionBadge.tsx",
+      "line": 100,
+      "text": "section.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/app/VersionBadge.tsx",
+      "line": 145,
+      "text": "release.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 62,
+      "text": "Zikaron BaSalon",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 72,
+      "text": "Story Studio",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 82,
+      "text": "zikaronbasalon.com ↗",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 126,
+      "text": "Sign in",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 131,
+      "text": "Welcome back to your story.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 134,
+      "text": "Sign in to continue gathering, or start a new one.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 158,
+      "text": "or",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 175,
+      "text": "Check your email for a sign-in link.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/auth/SignIn.tsx",
+      "line": 207,
+      "text": "A joint initiative to help families and hosts gather and share their story, with care.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 141,
+      "text": "Catalog",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 145,
+      "text": "Local database",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 153,
+      "text": "Reading the catalog file.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 163,
+      "text": "Reconnect folder",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 204,
+      "text": "Import an export",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 236,
+      "text": "Unpack it on your computer instead",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 248,
+      "text": "Nothing recorded yet.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 311,
+      "text": "No preview",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/CatalogPage.tsx",
+      "line": 318,
+      "text": "record.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/ConnectStep.tsx",
+      "line": 94,
+      "text": "Google Drive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/ConnectStep.tsx",
+      "line": 314,
+      "text": "Google Drive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/EventPeoplePicker.tsx",
+      "line": 22,
+      "text": "Name a face on a photograph in Collection to be able to say who was here.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/EventPeoplePicker.tsx",
+      "line": 39,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/EventPeoplePicker.tsx",
+      "line": 43,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/EventPeoplePicker.tsx",
+      "line": 43,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/EventPeoplePicker.tsx",
+      "line": 62,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 84,
+      "text": "Google Drive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 85,
+      "text": "Read-only access to a folder you choose. Nothing is copied unless you import it later.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 96,
+      "text": "Cancel",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 146,
+      "text": "Empty folder",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 177,
+      "text": "Use this folder",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 180,
+      "text": "Cancel",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 125,
+      "text": "crumb.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/GoogleDriveConnect.tsx",
+      "line": 170,
+      "text": "item.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/LocationField.tsx",
+      "line": 79,
+      "text": "Used in this story",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/LocationField.tsx",
+      "line": 98,
+      "text": "Places",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/LocationField.tsx",
+      "line": 59,
+      "text": "value.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/LocationField.tsx",
+      "line": 101,
+      "text": "place.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/LocationField.tsx",
+      "line": 110,
+      "text": "place.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 67,
+      "text": "Promise",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 69,
+      "text": "Promise",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 199,
+      "text": "Remove",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 200,
+      "text": "from this story? Its tags and notes are discarded. The file\n                  itself stays where it is — nothing is deleted from your device.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 213,
+      "text": "Keep it",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 231,
+      "text": "Remove from story",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 295,
+      "text": "Connections to other resources",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 344,
+      "text": "Linking to:",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 365,
+      "text": "Add",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 566,
+      "text": "Open",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 628,
+      "text": "AI actions",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 629,
+      "text": "Uses AI to help review this material. Only run this on test/sample materials for now.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 634,
+      "text": "Summarize",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 637,
+      "text": "Build timeline",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 640,
+      "text": "Create a story",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 773,
+      "text": "AI actions",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 774,
+      "text": "Detects faces in this photo, entirely on your device. Only run this on test/sample materials for now.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 777,
+      "text": "Extract faces",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 895,
+      "text": "% alike",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1025,
+      "text": "AI actions",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1026,
+      "text": "Uses AI to help review this material. Only run this on test/sample materials for now.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1041,
+      "text": "This recording runs . Transcription is capped at\n           minutes to keep costs predictable — trim it or split it into\n          parts. Everything else on this material still works.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1053,
+      "text": "Voice to text",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1061,
+      "text": "Summarize",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1070,
+      "text": "Find chapters",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1103,
+      "text": "Open testimony navigator",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1228,
+      "text": "Auto-fill details",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1236,
+      "text": "Fill the story from this",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1256,
+      "text": "Open the guided interview →",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1347,
+      "text": "Document actions",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1367,
+      "text": "Only",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1368,
+      "text": "of  pages",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1385,
+      "text": "Summarize",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1500,
+      "text": "Where this file is",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 200,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 255,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 315,
+      "text": "c.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 345,
+      "text": "target.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 392,
+      "text": "f.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 567,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 676,
+      "text": "entry.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 824,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 893,
+      "text": "matchFile.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1081,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1099,
+      "text": "segment.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialDetail.tsx",
+      "line": 1394,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 547,
+      "text": "People",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 918,
+      "text": "Add materials from Google Drive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 442,
+      "text": "connection.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 576,
+      "text": "person.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 668,
+      "text": "entry.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 708,
+      "text": "entry.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 825,
+      "text": "entry.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/MaterialsStep.tsx",
+      "line": 1002,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/ResourcePicker.tsx",
+      "line": 68,
+      "text": "f.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/ResourcePicker.tsx",
+      "line": 73,
+      "text": "f.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/ResourcePicker.tsx",
+      "line": 142,
+      "text": "f.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/SourceTextViewer.tsx",
+      "line": 59,
+      "text": "← Back",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/SourceTextViewer.tsx",
+      "line": 62,
+      "text": "Page  of",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/SourceTextViewer.tsx",
+      "line": 71,
+      "text": "Next →",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 204,
+      "text": "Saved.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/StorySectionPage.tsx",
+      "line": 293,
+      "text": "event.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/SummaryPage.tsx",
+      "line": 256,
+      "text": "a.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/SummaryPage.tsx",
+      "line": 257,
+      "text": "a.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 56,
+      "text": "Unpacking a large archive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 57,
+      "text": "Close",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 79,
+      "text": "Download the script for your computer, below.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 80,
+      "text": "Move it into the",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 81,
+      "text": "same folder as the archive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 81,
+      "text": "— the one ending in",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 82,
+      "text": ".zikaron.zip",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 85,
+      "text": "On a Mac or Linux:",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 85,
+      "text": "open Terminal in that folder and run",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 86,
+      "text": "bash",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 88,
+      "text": "On Windows:",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 88,
+      "text": "double-click",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 90,
+      "text": "It prints what the archive holds, then unpacks it into a new folder beside the archive.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 91,
+      "text": "Come back here, choose",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 92,
+      "text": "Storage",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 92,
+      "text": ", and connect that folder. The story reopens with its\n              tags, notes and faces.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 119,
+      "text": "Download for Mac or Linux",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/collection/UnpackDialog.tsx",
+      "line": 127,
+      "text": "Download for Windows",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/familytree/FacePicker.tsx",
+      "line": 102,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/familytree/FacePicker.tsx",
+      "line": 139,
+      "text": "face.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/familytree/FamilyTreePage.tsx",
+      "line": 491,
+      "text": ".ged",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/familytree/FamilyTreePage.tsx",
+      "line": 497,
+      "text": "Gramps",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/familytree/FamilyTreePage.tsx",
+      "line": 200,
+      "text": "file.name",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoriesPage.tsx",
+      "line": 92,
+      "text": "v.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+      "line": 100,
+      "text": "No worked example for this testimony yet — run",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+      "line": 101,
+      "text": "scripts/build-example-stories.mjs",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+      "line": 101,
+      "text": "to add one.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+      "line": 48,
+      "text": "story.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleStoryPage.tsx",
+      "line": 78,
+      "text": "video.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 29,
+      "text": "Testimony not found",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 52,
+      "text": "No chapters yet for this testimony — run",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 53,
+      "text": "scripts/segment-testimony-videos.mjs",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 53,
+      "text": "to add them.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 109,
+      "text": "Open on YouTube ↗",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 121,
+      "text": "← All example stories",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 41,
+      "text": "video.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 46,
+      "text": "video.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/presentation/ExampleTestimonyPage.tsx",
+      "line": 93,
+      "text": "video.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/products/ProductsCard.tsx",
+      "line": 74,
+      "text": "product.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/products/ProductsCard.tsx",
+      "line": 75,
+      "text": "product.hint",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/resources/ResourcesPage.tsx",
+      "line": 133,
+      "text": "zikaronbasalon.com",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/resources/ResourcesPage.tsx",
+      "line": 103,
+      "text": "c.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/resources/ResourcesPage.tsx",
+      "line": 197,
+      "text": "resource.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 103,
+      "text": "Not answered in this recording — a family would fill this in themselves.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 169,
+      "text": "The same testimony as a timeline",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 170,
+      "text": "The wizard lets you attach moments to a story. Here each chapter has become one — this is what\n            the events list would look like for this testimony.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 64,
+      "text": "section.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 140,
+      "text": "segment.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/ExampleStoryPanel.tsx",
+      "line": 197,
+      "text": "event.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyNavigator.tsx",
+      "line": 23,
+      "text": "Promise",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyNavigator.tsx",
+      "line": 186,
+      "text": "segment.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyNavigator.tsx",
+      "line": 246,
+      "text": "active.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyNavigator.tsx",
+      "line": 392,
+      "text": "segment.title",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyPlayers.tsx",
+      "line": 40,
+      "text": "Promise",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/testimony/TestimonyPlayers.tsx",
+      "line": 71,
+      "text": "Promise",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 128,
+      "text": "zikaron-metadata.sqlite",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 156,
+      "text": "helfgot",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 156,
+      "text": "ובה שבעה קבצים — תצלומים, סרטון,\n            ו-PDF סרוק של יומן המלחמה שרחל כתבה בעצמה.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 205,
+      "text": "המשך עם helfgot",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 212,
+      "text": "Google Drive",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 212,
+      "text": "בחרו תיקייה מחשבון Google",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 241,
+      "text": "helfgot",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 290,
+      "text": "העץ עונה על שאלה אחת: מי קשור למי. אפשר להוסיף אנשים אחד-אחד, לייבא קובץ GEDCOM\n            מ-MyHeritage או Gramps, או להביא את הפנים שכבר נתתם להן שם בשלב האיסוף.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 422,
+      "text": "rachel",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 451,
+      "text": "PDF להדפסה. מה שנשאר אצל המשפחה אחרי הערב.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 457,
+      "text": "קובץ PowerPoint — סדר הרצה למפגש. אפשר לערוך בכל תוכנה.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 530,
+      "text": "v0.11.11 · build 20 ←",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialPage.tsx",
+      "line": 665,
+      "text": "לא. הסטודיו קורא את הקבצים מהתיקייה שבחרתם ושומר את המטא-דאטה בקובץ SQLite באותה\n            תיקייה. התצלומים, המסמכים וההקלטות נשארים אצלכם.",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialScreens.tsx",
+      "line": 42,
+      "text": "STORY STUDIO",
+      "kind": "markup"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialScreens.tsx",
+      "line": 46,
+      "text": "step.label",
+      "kind": "label"
+    },
+    {
+      "file": "app/src/features/tutorial/TutorialScreens.tsx",
+      "line": 51,
+      "text": "step.label",
+      "kind": "label"
+    }
+  ]
+}

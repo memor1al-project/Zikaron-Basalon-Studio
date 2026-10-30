@@ -1,0 +1,9 @@
+{
+  "version": "0.11.11",
+  "date": "2026-10-27",
+  "title": "Out of the sidebar's way",
+  "changes": [
+    "The Report an issue button sat on top of the language switch and the version number in the sidebar's bottom corner. It now sits at the bottom of the content area instead, clear of the rail — and back at the window edge on sign-in, which has no rail.",
+    "The rail's width is a single CSS variable now, so anything that has to sit clear of it cannot drift out of step with the sidebar again."
+  ]
+}

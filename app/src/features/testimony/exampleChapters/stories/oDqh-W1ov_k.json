@@ -1,0 +1,178 @@
+{
+  "videoId": "oDqh-W1ov_k",
+  "title": "סטטיק מארח את שורד השואה שמעון גרינהויז- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:26:32.483Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מתחיל ב-22 ביוני 1941 עם פלישת גרמניה הנאצית לברית המועצות, מכסה את תקופת הגטו והלחימה כפרטיזן, ומסתיים בשחרור ובעלייה לישראל בשנת 1960.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-4-liberation-and-legacy"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "הניצול מדגיש את החשיבות של העברת העדות ממקור ראשון לדורות הבאים, במיוחד לנוער, כדי שהסיפורים האמיתיים לא ייכחדו עם היעלמותם של ניצולי השואה.",
+          "sourceSegmentIds": [
+            "seg-4-liberation-and-legacy"
+          ]
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "המשפחה כללה את הוריו, סבתו, אחיו, אחותו ומשפחה מורחבת. מכל המשפחה, רק הוא ואמו שרדו את השואה.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-2-ghetto-and-loss"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "המשפחה הייתה תחילה בגטו, שם נרצחו רוב בני המשפחה. לאחר מכן, הניצול ואמו הסתתרו במרתף, ולבסוף ברחו ליערות ולביצות שם חיו ולחמו יחד עם הפרטיזנים.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-2-ghetto-and-loss",
+            "seg-3-fighting-partisans"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "סבתו קיבלה החלטה קשה בסלקציה כשהדפה אותו לקבוצת החולים כדי להצילו, ושילמה על כך בחייה. בנוסף, במרתף המסתור התקבלה החלטה קשה לחנוק תינוקת שבכתה כדי לא לחשוף את מקום המסתור של הקבוצה לנאצים.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-2-ghetto-and-loss"
+          ]
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "סבתו הצילה אותו בסלקציה, קברן יהודי הבחין שהוא חי והוריד אותו מעגלת המתים, והפרטיזנים ביערות אפשרו לו ולאמו לחיות לצידם וגייסו אותו לשורותיהם.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-2-ghetto-and-loss",
+            "seg-3-fighting-partisans"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "חשוב לשתף את העדות כעת משום שמספר ניצולי השואה הולך ונעלם, וזו ההזדמנות האחרונה לשאוב את המידע ממקור ראשון של אדם שראה את הדברים בעיניו.",
+          "sourceSegmentIds": [
+            "seg-4-liberation-and-legacy"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "הניצול מעוניין שהנוער ייחשף לסיפורים האמיתיים של השואה והגבורה, ולא רק דרך משחקי מחשב, כדי שההיסטוריה לא תישכח.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-4-liberation-and-legacy"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "הוא מקווה שהשומעים יבינו את המציאות הקשה של המלחמה, את אובדן המשפחות ואת ההישרדות, ויזכרו את אלה שחיים ואת אלה שנרצחו.",
+          "sourceSegmentIds": [
+            "seg-1-intro-and-partisans",
+            "seg-4-liberation-and-legacy"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "פלישת גרמניה לברית המועצות והסלקציה",
+      "when": "1941",
+      "description": "ב-22 ביוני 1941 גרמניה הנאצית תוקפת את ברית המועצות. סבתו של הניצול מצילה אותו ממוות בסלקציה כשדוחפת אותו לקבוצה השנייה.",
+      "segmentId": "seg-1-intro-and-partisans"
+    },
+    {
+      "id": "event-2",
+      "title": "רצח האב וההסתתרות בחיסול הגטו",
+      "when": "",
+      "description": "אביו של הניצול נרצח לנגד עיניו, אך הוא ניצל מקבר האחים. בזמן חיסול הגטו, הוא ואמו מסתתרים במרתף עם קבוצת אנשים, שם נאלצים להשתיק תינוקת בוכה.",
+      "segmentId": "seg-2-ghetto-and-loss"
+    },
+    {
+      "id": "event-3",
+      "title": "לחימה עם הפרטיזנים",
+      "when": "",
+      "description": "הניצול ואמו בורחים ליערות ומצטרפים לפרטיזנים. כילד, הוא מגויס כדי לפתות חיילים נאצים למארבים ומשתתף בקרבות רבים.",
+      "segmentId": "seg-3-fighting-partisans"
+    },
+    {
+      "id": "event-4",
+      "title": "שחרור ועלייה לישראל",
+      "when": "1960",
+      "description": "עם נסיגת הנאצים והגעת הצבא האדום, הניצול חווה את יום השחרור. עקב אנטישמיות הוא עולה לישראל בשנת 1960, שם הוא הופך למורה ומקדיש את חייו למתן עדות.",
+      "segmentId": "seg-4-liberation-and-legacy"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

@@ -1,0 +1,238 @@
+{
+  "videoId": "qs58RTZfVdY",
+  "title": "אשר גונן - עדות מקוצרת",
+  "generatedAt": "2026-09-11T01:27:12.697Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "הסיפור מקיף את התקופה החל מלידתו של אשר בשנת 1931, דרך שנות מלחמת העולם השנייה במחנות, ועד עלייתו לארץ ב-1945, שירותו בפלמ\"ח והקמת משפחתו בישראל.",
+          "sourceSegmentIds": [
+            "seg-1-background",
+            "seg-11-israel"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "שמו המקורי היה אשר גולדשטיין, והוא עיברת את שם משפחתו לגונן בשנת 1956.",
+          "sourceSegmentIds": [
+            "seg-1-background"
+          ]
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "אשר נולד במאי 1931 בעיירה נאסוד שבטרנסילבניה.",
+          "sourceSegmentIds": [
+            "seg-1-background",
+            "seg-2-family"
+          ]
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "המשפחה מנתה שבעה אחים ואחיות, הורים, וסבא וסבתא מצד האם (שמלר ואיטה). הם חיו יחד כמשפחה מורחבת גדולה.",
+          "sourceSegmentIds": [
+            "seg-2-family",
+            "seg-12-photos"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "המשפחה הייתה דתית מאוד. אביו לקח אותו לבית הכנסת פעמיים ביום, ואשר למד ב'חדר', שם סבתו נהגה לתת לו סוכריות כדי לעודד אותו ללמוד.",
+          "sourceSegmentIds": [
+            "seg-2-family"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "המשפחה גורשה מביתה לגטו ביסטריץ, ומשם נשלחה בקרונות בקר לאושוויץ. באושוויץ המשפחה הופרדה, ואשר נשלח למחנות העבודה קטוביץ, מאטהאוזן, ולבסוף לגונסקירכן.",
+          "sourceSegmentIds": [
+            "seg-4-ghetto",
+            "seg-5-auschwitz",
+            "seg-7-katowice",
+            "seg-8-mauthausen",
+            "seg-9-death-march"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "ההבטחה ההדדית של קבוצת חמישה ילדים שצעדו יחד, שעזרו אחד לשני והחליטו שיישארו יחד בכל מחיר, נתנה לו כוח לשרוד.",
+          "sourceSegmentIds": [
+            "seg-9-death-march"
+          ]
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "חייל גרמני באושוויץ העביר אותו לקבוצת הכשירים לעבודה והציל את חייו. בקטוביץ, מפקח גרמני דאג לו והביא לו כריך מדי יום. לאחר השחרור, חייל מהבריגדה היהודית נשא אותו על ידיו ועזר לו.",
+          "sourceSegmentIds": [
+            "seg-5-auschwitz",
+            "seg-7-katowice",
+            "seg-10-liberation"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "אשר שתק במשך שנים רבות, אך כשהבין שנותרו מעט מאוד ניצולים שיכולים לספר את סיפורי הזוועה, החליט שעליו להתחיל לדבר ולשתף.",
+          "sourceSegmentIds": [
+            "seg-11-israel"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "המסר שלו לדורות הבאים הוא לאהוב את ארץ ישראל, על הטוב והרע שבה, משום שזהו המקום היחיד שבו יהודים יכולים להגן על חייהם.",
+          "sourceSegmentIds": [
+            "seg-11-israel"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "המקום של העם היהודי הוא במדינה שלו, וככל שנאהב אותה יותר, כך היא תעניק לנו יותר ביטחון ועתיד.",
+          "sourceSegmentIds": [
+            "seg-11-israel"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "לידה ורקע אישי",
+      "when": "1931",
+      "description": "אשר נולד בטרנסילבניה באזור שהחליף ידיים בין רומניה להונגריה.",
+      "segmentId": "seg-1-background"
+    },
+    {
+      "id": "event-2",
+      "title": "החיים בנאסוד",
+      "when": "",
+      "description": "אשר גדל במשפחה דתית מרובת ילדים ולמד בחדר המקומי.",
+      "segmentId": "seg-2-family"
+    },
+    {
+      "id": "event-3",
+      "title": "פרוץ המלחמה",
+      "when": "1941",
+      "description": "חילופי שלטון באזור מביאים לעליית הפשיסטים, ולאחר מכן כניסת חיילים גרמנים לבית המשפחה.",
+      "segmentId": "seg-3-war"
+    },
+    {
+      "id": "event-4",
+      "title": "הגירוש לגטו",
+      "when": "אפריל",
+      "description": "המשפחה מגורשת מביתה ומועברת לאוהלים בגטו ביסטריץ.",
+      "segmentId": "seg-4-ghetto"
+    },
+    {
+      "id": "event-5",
+      "title": "הגעה לאושוויץ וסלקציה",
+      "when": "",
+      "description": "המשפחה נשלחת בקרונות בקר לאושוויץ. אשר מופרד מאמו ואחיו הקטנים וניצל בזכות חייל גרמני.",
+      "segmentId": "seg-5-auschwitz"
+    },
+    {
+      "id": "event-6",
+      "title": "פרידה מהאב",
+      "when": "",
+      "description": "אשר מופרד מאביו, עובר מקלחת, מקבל בגדי אסיר ואת המספר B-6180.",
+      "segmentId": "seg-6-separation"
+    },
+    {
+      "id": "event-7",
+      "title": "עבודת כפייה בקטוביץ",
+      "when": "",
+      "description": "אשר נשלח לעבוד בבית חרושת לנשק בקטוביץ, שם גרמני רחמן עוזר לו בסתר.",
+      "segmentId": "seg-7-katowice"
+    },
+    {
+      "id": "event-8",
+      "title": "מחנה מאטהאוזן",
+      "when": "",
+      "description": "העברה למחנה מאטהאוזן האכזרי. אשר שורד תנאי רעב קשים וניצל בנס ממוות בידי איש ס.ס.",
+      "segmentId": "seg-8-mauthausen"
+    },
+    {
+      "id": "event-9",
+      "title": "צעדת המוות לגונסקירכן",
+      "when": "אפריל",
+      "description": "האסירים מוצעדים לגונסקירכן בתנאים קשים, ואשר וחבריו ישנים על גופות כדי לשרוד את הקור.",
+      "segmentId": "seg-9-death-march"
+    },
+    {
+      "id": "event-10",
+      "title": "השחרור",
+      "when": "",
+      "description": "המחנה משוחרר על ידי האמריקאים. אשר פוגש חייל מהבריגדה היהודית שמעביר אותו לאיטליה.",
+      "segmentId": "seg-10-liberation"
+    },
+    {
+      "id": "event-11",
+      "title": "עלייה לארץ",
+      "when": "נובמבר 1945",
+      "description": "אשר מגיע לארץ ישראל, מאומץ על ידי משפחה בבאר טוביה, ומתגייס לפלמ\"ח.",
+      "segmentId": "seg-11-israel"
+    },
+    {
+      "id": "event-12",
+      "title": "תמונות וזיכרונות",
+      "when": "",
+      "description": "אשר מציג תמונות של בני משפחתו שנספו, תעודות מהמחנות, ותמונות של משפחתו שהקים בישראל.",
+      "segmentId": "seg-12-photos"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

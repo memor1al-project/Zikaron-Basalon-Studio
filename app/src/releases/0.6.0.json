@@ -1,0 +1,14 @@
+{
+  "version": "0.6.0",
+  "date": "2026-09-22",
+  "title": "A catalog you can read without the files",
+  "changes": [
+    "Videos now get a thumbnail of their opening frame, and PDFs a snapshot of their first page — previously only photographs had one.",
+    "The Catalog page lists every resource it remembers, with its preview, name and what has been recorded about it.",
+    "That list is built from the catalog file alone, so it still shows what each resource is on a machine that cannot reach the originals, or after they have moved.",
+    "A material added from another folder that also exists in the connected folder is no longer listed twice — the folder copy is kept, and any notes recorded against the outside copy move onto it.",
+    "Clicking the version in the sidebar now opens the release notes — the panel was being painted underneath the page.",
+    "Every deployment records a build number, and docs/RELEASES.md is regenerated with what shipped in each one.",
+    "The release panel now opens with a full list of what the Studio does, not only what changed most recently."
+  ]
+}

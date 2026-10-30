@@ -1,0 +1,150 @@
+{
+  "videoId": "eDY_5pR5ROg",
+  "title": "מר שיבולת מארח את שורד השואה משה קסלר- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:24:35.311Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "אחראי הבלוק, אנטוני קלינה, שהיה חבר במחתרת, סיכן את חייו כדי להציל את הילדים. הוא מנע מהגרמנים להיכנס לבלוק בטענה שיש בו טיפוס מדבק, ובהמשך הורה לילדים להוריד את מגן הדוד כדי להסתיר את זהותם.",
+          "sourceSegmentIds": [
+            "seg-2-kalina-rescue"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "דור ניצולי השואה הולך ונעלם, וחשוב לשמר את העדויות מגוף ראשון לפני שהמשאב הזה יאבד לנצח.",
+          "sourceSegmentIds": [
+            "seg-3-memory-technology"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "ההבנה שהסיפורים האלה קרו במציאות לאנשים אמיתיים שחיו שם. שמיעת עדות מגוף ראשון הופכת את החוויה ממשהו וירטואלי להזדהות אמיתית עם סיפורו של אדם.",
+          "sourceSegmentIds": [
+            "seg-3-memory-technology"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "ההגעה למחנה",
+      "when": "",
+      "description": "הגעה ברכבת למחנה המוקף ביער ובגדרות תיל מחושמלות. עם ההגעה התבצעה סלקציה על ידי האס אס, והאסירים שוכנו בצפיפות רבה בדרגשים.",
+      "segmentId": "seg-1-arrival-and-camp"
+    },
+    {
+      "id": "event-2",
+      "title": "ההצלה על ידי אנטוני קלינה",
+      "when": "",
+      "description": "אחראי הבלוק, אנטוני קלינה, סיכן את חייו כדי להציל את הילדים. הוא הרחיק את הנאצים בטענה למחלת טיפוס והורה להסיר את מגן הדוד כדי להסתיר את זהותם היהודית.",
+      "segmentId": "seg-2-kalina-rescue"
+    },
+    {
+      "id": "event-3",
+      "title": "שימור הזיכרון",
+      "when": "",
+      "description": "שיחה על החשיבות בשימור עדויות מגוף ראשון של ניצולי שואה. שימוש בטכנולוגיה וגרפיקה ממוחשבת עוזר להמחיש את המציאות ולהחיות את סיפורם.",
+      "segmentId": "seg-3-memory-technology"
+    }
+  ],
+  "language": "Hebrew",
+  "dir": "rtl"
+}

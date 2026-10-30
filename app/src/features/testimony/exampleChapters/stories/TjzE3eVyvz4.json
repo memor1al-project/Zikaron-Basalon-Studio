@@ -1,0 +1,177 @@
+{
+  "videoId": "TjzE3eVyvz4",
+  "title": "דני לי מארחת את שורד השואה אברהם- FIGHTING TO REMEMBER",
+  "generatedAt": "2026-09-11T01:23:07.933Z",
+  "sections": [
+    {
+      "key": "scene",
+      "slug": "scene",
+      "title": "Setting the scene",
+      "answers": [
+        {
+          "key": "timePeriod",
+          "label": "What time period does this story cover?",
+          "answer": "The story covers Avraham's early life before the war, the German occupation starting in 1940, and his time in hiding through the Battle of Arnhem.",
+          "sourceSegmentIds": [
+            "seg-1-early-life",
+            "seg-2-occupation",
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "intentionMessage",
+          "label": "What feeling or message do you want to come through?",
+          "answer": "The message is to remember, not to forget, and not to forgive. The intention is to tell people what happened so that it will never happen again.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "relationship",
+          "label": "What's your relationship to the person this story is about?",
+          "answer": "",
+          "sourceSegmentIds": []
+        }
+      ]
+    },
+    {
+      "key": "lifeBeforeWar",
+      "slug": "life-before-war",
+      "title": "Life before the war",
+      "answers": [
+        {
+          "key": "birthNameAndNicknames",
+          "label": "What name were they born with, and what were they called growing up?",
+          "answer": "His name is Avraham Ruth.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        },
+        {
+          "key": "bornWhenWhere",
+          "label": "When and where were they born?",
+          "answer": "He was born in Holland in 1928.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        },
+        {
+          "key": "family",
+          "label": "Who were the close and extended family around them?",
+          "answer": "He lived with his parents and his brothers.",
+          "sourceSegmentIds": [
+            "seg-3-jewish-school",
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "religionAndCulture",
+          "label": "Did religion, tradition, or culture shape their everyday life?",
+          "answer": "His family believed strongly in equality, educating him that all people are equal regardless of color. Because of this upbringing, they could never imagine something like the Holocaust happening in Holland.",
+          "sourceSegmentIds": [
+            "seg-1-early-life"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "warYears",
+      "slug": "war-years",
+      "title": "The war years",
+      "answers": [
+        {
+          "key": "whereFamilyWas",
+          "label": "Where was the family during the war?",
+          "answer": "The family was in Holland. Later, Avraham and his brothers were hidden at separate addresses, with Avraham staying with a farmer in a small village in the south of Holland.",
+          "sourceSegmentIds": [
+            "seg-1-early-life",
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "sourceOfStrength",
+          "label": "Was there a song, phrase, or story that gave them strength?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "difficultDecision",
+          "label": "Was there a moment they had to make a hard decision?",
+          "answer": "",
+          "sourceSegmentIds": []
+        },
+        {
+          "key": "whoHelped",
+          "label": "Did anyone help or support them along the way?",
+          "answer": "The Dutch underground helped hide Avraham and his brothers. A farmer in a small village in the south of Holland also took Avraham in.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "messageToday",
+      "slug": "message-today",
+      "title": "A message for today",
+      "answers": [
+        {
+          "key": "whyShareIt",
+          "label": "Why does it matter to you to share this now?",
+          "answer": "He views it as his lifelong task to tell people what happened so that it won't happen again.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "messageToFutureGenerations",
+          "label": "What would you want future generations to take from it?",
+          "answer": "He wants future generations to know exactly what happened during the Holocaust to ensure that such events are never repeated.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        },
+        {
+          "key": "lessonsToTakeAway",
+          "label": "What do you hope listeners carry with them?",
+          "answer": "He hopes listeners will remember the events of the Holocaust, and choose not to forget and not to forgive the atrocities committed.",
+          "sourceSegmentIds": [
+            "seg-4-hiding-arnhem"
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Early Life in Holland",
+      "when": "1928 - 1940",
+      "description": "Avraham Ruth is born in Holland and experiences a peaceful childhood. His family raises him to believe that all people are equal.",
+      "segmentId": "seg-1-early-life"
+    },
+    {
+      "id": "event-2",
+      "title": "German Occupation Begins",
+      "when": "1940",
+      "description": "The Germans occupy Holland and introduce anti-Jewish laws, stripping away access to schools, shops, and transport. Following the German victory declaration in May 1940, a classmate's entire family commits suicide.",
+      "segmentId": "seg-2-occupation"
+    },
+    {
+      "id": "event-3",
+      "title": "Segregated School and Disappearances",
+      "when": "",
+      "description": "Avraham attends a segregated Jewish school, sharing a parallel class with Anne Frank. He witnesses the constant disappearance of classmates and teachers, as well as the deportation of 170 children from a local orphanage to Auschwitz.",
+      "segmentId": "seg-3-jewish-school"
+    },
+    {
+      "id": "event-4",
+      "title": "Hiding and the Battle of Arnhem",
+      "when": "",
+      "description": "With the help of the Dutch underground, Avraham and his brothers are hidden at separate addresses, and he stays on a farm in South Holland. He later witnesses the Battle of Arnhem, watching American parachutists being killed by German forces.",
+      "segmentId": "seg-4-hiding-arnhem"
+    }
+  ],
+  "language": "English",
+  "dir": "ltr"
+}

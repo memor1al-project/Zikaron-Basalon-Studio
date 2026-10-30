@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 11.5L12 4l9 7.5' fill='none' stroke='%233a2c22' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5.5 10v9.5a1 1 0 0 0 1 1H17.5a1 1 0 0 0 1-1V10' fill='none' stroke='%233a2c22' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 8.3c1 1.1 1.5 1.9 1.5 2.9a1.5 1.5 0 1 1-3 0c0-1 .5-1.8 1.5-2.9z' fill='%23c2652f'/%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zikaron BaSalon Story Studio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <!-- Google tag (gtag.js).
+         Skipped on localhost so development traffic doesn't land in the reports, and
+         send_page_view is off because this is a single-page app: the one page view fired
+         at load would be the only one ever recorded. useAnalytics() sends them per route. -->
+    <script>
+      window.__GA_ID__ = "G-MJ6ZEP26K9";
+      window.__GA_ENABLED__ = location.hostname !== "localhost" && location.hostname !== "127.0.0.1";
+      if (window.__GA_ENABLED__) {
+        var gaScript = document.createElement("script");
+        gaScript.async = true;
+        gaScript.src = "https://www.googletagmanager.com/gtag/js?id=" + window.__GA_ID__;
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag("js", new Date());
+        window.gtag("config", window.__GA_ID__, {
+          send_page_view: false,
+          // Aggregate reporting only: no ad personalisation, no cross-device identity.
+          // These pages are named survivors' testimonies read by visitors who have no
+          // account and were never asked; counts are enough to answer what gets watched.
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false,
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "sections": [
+    {
+      "title": "Gathering materials",
+      "items": [
+        "Connect a folder on this device, or Google Drive. Folders are read including subfolders, and reattach on later visits without picking them again.",
+        "Add materials from other folders on the device; they reattach too, and can be copied into the story's folder to make them permanent.",
+        "A material that exists both in the folder and as an outside copy is listed once, with its notes kept.",
+        "Tags, notes, a place (searched and shown on a map) and links between materials — 'her father', 'same day as this letter'.",
+        "Materials can be removed from a story and put back. Files on the device are never deleted."
+      ]
+    },
+    {
+      "title": "The catalog",
+      "items": [
+        "Everything recorded about a local folder's materials is stored in a SQLite file inside that folder, so it travels with them and survives signing out or changing machine.",
+        "A Catalog page lists every resource with its preview and what has been recorded about it, read from the catalog alone — it still works when the originals can't be reached.",
+        "Previews for photographs, a video's opening frame, and a PDF's first page.",
+        "Coverage figures for each kind of data, the file's size, schema version and history."
+      ]
+    },
+    {
+      "title": "Faces",
+      "items": [
+        "Faces are detected on the device and drawn on the photograph itself, not only as a list.",
+        "Selecting a face shows every other material that person appears in.",
+        "A People strip filters the whole collection to one person, grouping the same face across photographs.",
+        "A tagged face can become a person's portrait in the family tree."
+      ]
+    },
+    {
+      "title": "Documents and recordings",
+      "items": [
+        "Text is extracted from PDFs and text files in the browser, with no AI service needed. A scanned page with no text layer says so rather than appearing to do nothing.",
+        "Recordings are transcribed with sentence-level timestamps, capped at fifteen minutes so the cost of pressing the button is predictable.",
+        "Summaries, timelines and short narrative passages from any material's text.",
+        "Testimony videos are divided into named chapters with plain-language summaries."
+      ]
+    },
+    {
+      "title": "The family tree",
+      "items": [
+        "People, and the families that connect them, stored as GEDCOM family records so a tree imports and exports without losing its shape.",
+        "Add a relative from the person they relate to, or connect two people already in the tree.",
+        "Editing a person lists the families they belong to, so a wrong link can be removed without deleting anyone.",
+        "Links a family record cannot hold are refused with the reason, rather than silently ignored."
+      ]
+    },
+    {
+      "title": "Telling the story",
+      "items": [
+        "A guided interview of fourteen questions, reworded from Zikaron BaSalon's own Speakers Kit.",
+        "Answers can be drafted from a document or a transcript — always merged with what a person wrote, never over it, and always saying which material each suggestion came from.",
+        "Moments on a timeline, each able to carry the materials and people it involves.",
+        "Quotes link back to the passage in the source they came from, highlighted in place."
+      ]
+    },
+    {
+      "title": "What a family keeps",
+      "items": [
+        "A summary that gathers the subject, the tree, the map, the timeline, the photographs and every answered question into one page.",
+        "A booklet, printed through the browser so the family tree stays sharp as vector.",
+        "An article as Markdown — the family's own words, with the questions kept alongside, and nothing invented to fill gaps.",
+        "A running order for the evening as a deck."
+      ]
+    },
+    {
+      "title": "Example testimonies",
+      "items": [
+        "Thirteen real testimonies from Zikaron BaSalon's channel, open to anyone without an account.",
+        "Each divided into chapters, with a navigator built for older viewers: larger text on request, slower playback, chapter-at-a-time controls, captions, and a mode that stops at the end of a chapter.",
+        "Right-to-left throughout, with the navigator's own buttons in the language the survivor speaks.",
+        "Each testimony also worked backwards through the guided interview's questions, with every answer linked to the chapter it came from — and the questions a recording cannot answer left visibly blank."
+      ]
+    }
+  ]
+}

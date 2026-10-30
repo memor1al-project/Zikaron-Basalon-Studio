@@ -1,0 +1,75 @@
+{
+  "videoId": "S1Y0zz-fvWs",
+  "title": "דאני לי מארחת את שורד השואה אברהם רוט- FIGHTING TO REMEMBER",
+  "durationSeconds": 640,
+  "language": "English",
+  "dir": "ltr",
+  "generatedAt": "2026-09-10T22:44:36.458Z",
+  "segments": [
+    {
+      "id": "seg-1-early-life",
+      "title": "Early Life and Persecution",
+      "summary": "Avraham describes his early life in a liberal Orthodox family in Holland. He explains how everything changed when the Germans arrived and began stripping away their basic rights.",
+      "keySubjects": [
+        "Holland",
+        "Pre-war life",
+        "Anti-Jewish laws"
+      ],
+      "startTime": 0,
+      "endTime": 159.2
+    },
+    {
+      "id": "seg-2-invasion-school",
+      "title": "Invasion and Jewish School",
+      "summary": "The sudden bombing of Holland takes everyone by surprise and brings a constant feeling of dread. Avraham recalls attending a segregated Jewish school where classmates and teachers would suddenly disappear.",
+      "keySubjects": [
+        "Bombing of Holland",
+        "Jewish school",
+        "Anne Frank",
+        "Disappearing classmates"
+      ],
+      "startTime": 159.2,
+      "endTime": 341.2
+    },
+    {
+      "id": "seg-3-ghetto-deportations",
+      "title": "Ghettos and Deportations",
+      "summary": "Avraham's family is forced into a ghetto, and he witnesses the brutal deportation of orphans and neighbors. He shares how his mother temporarily saved them from a raid by claiming he had cholera.",
+      "keySubjects": [
+        "Ghetto",
+        "Dachau",
+        "Auschwitz",
+        "Orphanage deportation",
+        "Faking illness"
+      ],
+      "startTime": 341.2,
+      "endTime": 555
+    },
+    {
+      "id": "seg-4-hiding-arnhem",
+      "title": "Hiding and Battle of Arnhem",
+      "summary": "The Dutch underground helps hide Avraham and his brothers on separate farms. While in hiding, he witnesses paratroopers landing and fighting during the Battle of Arnhem.",
+      "keySubjects": [
+        "Dutch underground",
+        "Hiding on a farm",
+        "Catholic priest",
+        "Battle of Arnhem"
+      ],
+      "startTime": 555,
+      "endTime": 582.3
+    },
+    {
+      "id": "seg-5-trauma-legacy",
+      "title": "Trauma and Legacy",
+      "summary": "Avraham explains why his family never spoke about the Holocaust at home due to their deep trauma. He emphasizes the importance of sharing his story so future generations understand the reality of war and never forget.",
+      "keySubjects": [
+        "Trauma",
+        "Silence at home",
+        "Holocaust education",
+        "Legacy"
+      ],
+      "startTime": 582.3,
+      "endTime": 640.461
+    }
+  ]
+}

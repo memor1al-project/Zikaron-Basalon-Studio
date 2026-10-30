@@ -1,0 +1,60 @@
+{
+  "videoId": "TjzE3eVyvz4",
+  "title": "דני לי מארחת את שורד השואה אברהם- FIGHTING TO REMEMBER",
+  "durationSeconds": 360,
+  "language": "English",
+  "dir": "ltr",
+  "generatedAt": "2026-09-10T22:37:31.348Z",
+  "segments": [
+    {
+      "id": "seg-1-early-life",
+      "title": "Early Life in Holland",
+      "summary": "Avraham Ruth introduces himself and describes his childhood in Holland before 1940. He explains how his family believed in equality and never imagined the Holocaust could happen there.",
+      "keySubjects": [
+        "Avraham Ruth",
+        "Holland",
+        "Pre-war life"
+      ],
+      "startTime": 0,
+      "endTime": 100
+    },
+    {
+      "id": "seg-2-occupation",
+      "title": "German Occupation Begins",
+      "summary": "Avraham describes the feeling of being hunted as the Germans introduced anti-Jewish laws. He recalls losing access to schools and transport, and the tragic suicide of a classmate's family.",
+      "keySubjects": [
+        "Anti-Jewish laws",
+        "German occupation",
+        "Suicide"
+      ],
+      "startTime": 100,
+      "endTime": 212
+    },
+    {
+      "id": "seg-3-jewish-school",
+      "title": "School and Disappearances",
+      "summary": "Avraham attends a segregated Jewish school, sharing a parallel class with Anne Frank. He remembers the constant fear as classmates disappeared, and the deportation of 170 children from a local orphanage.",
+      "keySubjects": [
+        "Jewish school",
+        "Anne Frank",
+        "Auschwitz",
+        "Orphanage deportation"
+      ],
+      "startTime": 212,
+      "endTime": 342
+    },
+    {
+      "id": "seg-4-hiding-arnhem",
+      "title": "Hiding and Battle of Arnhem",
+      "summary": "The Dutch underground helps Avraham and his brothers go into hiding at separate addresses. He later witnesses the Battle of Arnhem and shares his mission to keep the memory of the Holocaust alive.",
+      "keySubjects": [
+        "Dutch underground",
+        "Hiding",
+        "Battle of Arnhem",
+        "Remembrance"
+      ],
+      "startTime": 342,
+      "endTime": 360.421
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": "0.11.2",
+  "date": "2026-10-26",
+  "title": "The storage step in Hebrew",
+  "changes": [
+    "Choosing where a story's materials live now reads in Hebrew: the question itself, the three ways to connect, resuming a folder you used before, restoring an exported story, and clearing what the browser remembers.",
+    "Untranslated English no longer looks broken on a Hebrew page. A screen still waiting for translation used to have its question marks and full stops thrown to the far left; each paragraph now takes its own direction from its own words.",
+    "Fixed the English that sentence had always had: \"Where does this story's materials live\" is now \"Where do\"."
+  ]
+}

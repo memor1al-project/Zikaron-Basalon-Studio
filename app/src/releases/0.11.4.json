@@ -1,0 +1,11 @@
+{
+  "version": "0.11.4",
+  "date": "2026-10-27",
+  "title": "The story step in Hebrew",
+  "changes": [
+    "The guided interview reads in Hebrew: the tabs across the top, the questions and their examples, the materials attached to a section, the events inside it, and the attribution labels on answers drafted from a document.",
+    "Resetting the story reads in Hebrew too, including how long ago it was cleared.",
+    "The reset confirmation said \"all four parts\" — it has been five since After the war was added. It now counts the sections rather than naming a number.",
+    "The family tree's opening line now reads המשפחה עליה הסיפור נסוב, and the sentence after it no longer repeats the same word."
+  ]
+}

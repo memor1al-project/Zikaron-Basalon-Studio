@@ -1,0 +1,12 @@
+{
+  "version": "0.5.0",
+  "date": "2026-09-21",
+  "title": "Connecting people already in the tree",
+  "changes": [
+    "Two people already in the family tree can be connected to each other — previously a relationship could only be recorded while adding someone new.",
+    "Right-click a person and choose \"Connect to someone in the tree\", pick the relationship, then search the people already recorded.",
+    "Editing a person now lists the families they belong to, so a wrong link can be removed or a new one added without deleting anyone.",
+    "Naming a second parent for someone who already has one now works — the relative joins that person's existing family instead of being refused.",
+    "Links a family record genuinely cannot hold — a third parent, two siblings already in different families, a duplicate partnership — are shown as unavailable with the reason."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.11.8",
+  "date": "2026-10-27",
+  "title": "Report an issue",
+  "changes": [
+    "A reviewer can now point at any part of the page and say what is wrong with it. Press Report an issue, bottom left; the page outlines whatever is under the cursor; click it and describe the problem.",
+    "Reports collect into a list with a counter beside the button. The list exports as a readable Markdown summary grouped by page, or as a JSON file carrying the selector, the text on screen, the page, the language and the build each report was made against.",
+    "Reports describe and never change. The sibling tool this is modelled on could also stage edits to the page itself; that is deliberately left out here, because what is on screen is somebody's family testimony and a reviewer's note must never be mistaken for the record.",
+    "Nothing is uploaded. Reports stay in the reviewer's browser until they export them."
+  ]
+}

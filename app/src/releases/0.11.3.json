@@ -1,0 +1,11 @@
+{
+  "version": "0.11.3",
+  "date": "2026-10-26",
+  "title": "Collection and the family tree in Hebrew",
+  "changes": [
+    "The Collection step reads in Hebrew: the file counts, the people strip, the material cards and their type badges, adding files and folders, what was removed from the story and how to put it back.",
+    "The family tree reads in Hebrew too — the chart, the right-click menu, a person's full details, connecting two people already in the tree, choosing portraits from tagged faces, and the GEDCOM explainer for anyone who has never met the format.",
+    "How people are related is now written in Hebrew rather than assembled from English words: \"אח/ות של\", \"הורה של\", and the reasons a link cannot be made. The word joining two parents is translated with its spacing, because Hebrew's ו attaches to the next word instead of standing alone.",
+    "The translator now keeps one identity per language, so screens that depend on it no longer re-run their work on every render."
+  ]
+}

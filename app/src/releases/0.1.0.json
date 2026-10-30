@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "date": "2026-09-10",
+  "title": "Testimony Navigator",
+  "changes": [
+    "Testimony videos are divided into named chapters with plain-language summaries, so an elderly viewer can jump to a part instead of scrubbing.",
+    "Navigator built for older viewers: adjustable text size, slower playback, chapter-at-a-time controls, optional captions, and a 'stop at the end of this chapter' mode.",
+    "Right-to-left support, with the navigator's own buttons shown in the language the survivor speaks.",
+    "All 13 example testimonies chaptered — 54 chapters and 912 sentence-level cues.",
+    "Each example worked backwards through the Collection Wizard's questions, with every answer linked to the chapter it came from."
+  ]
+}

@@ -1,0 +1,119 @@
+# ============================================
+# Secrets & credentials
+# ============================================
+# Never commit real values. The .env.example files are the tracked templates.
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Service-account keys and certs, wherever they land
+*serviceAccount*.json
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ============================================
+# Firebase
+# ============================================
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+.runtimeconfig.json
+
+# ============================================
+# Dependencies & build output
+# ============================================
+node_modules/
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+.vite/
+
+# ============================================
+# Testimony media & large data
+# ============================================
+# Survivor testimony videos downloaded for local development (~2.9 GB).
+# Third-party / rights-restricted material — re-fetch locally, never publish.
+# See resources/wizards/manifest.json for the source index (kept tracked).
+resources/stories/
+resources/**/*.pdf
+!resources/wizards/manifest.json
+
+# Media anywhere else in the tree — the app ships no video/audio of its own,
+# so anything matching here is local working material.
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.mp3
+*.wav
+*.m4a
+*.flac
+
+# Bulk archives and local datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# Logs & temp
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.cache/
+tmp/
+.tmp/
+
+# ============================================
+# Editor & OS
+# ============================================
+.DS_Store
+# AppleDouble sidecar files — this project lives on an exFAT volume,
+# which scatters these next to every file.
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================================
+# Claude Code
+# ============================================
+# Machine-specific tool permissions; the shared config and skills stay tracked.
+.claude/settings.local.json
+
+# ============================================
+# Duplicated or generated locally
+# ============================================
+# The organisation's kits are served from app/public/resources; docs/heb-resources is
+# the working copy they were taken from. Tracking both would carry 30 MB twice.
+docs/heb-resources/
+
+# Exports produced by the app. A story archive carries a family's own materials.
+*.zikaron.zip
