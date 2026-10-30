@@ -12,6 +12,8 @@ made years ago — but no story. The Studio walks that pile through six steps un
 something that can be told in a living room, and then makes a printable booklet, a
 presentation and an article out of it.
 
+![The six steps, from a box of photographs to a story that can be told in a living room](docs/images/flow.svg)
+
 > **The material never leaves the family's machine.** The Studio reads files from a folder
 > the person picks and writes its metadata to `zikaron-metadata.sqlite` in that same
 > folder, beside the materials. No photograph, document or recording is uploaded.
@@ -28,6 +30,16 @@ presentation and an article out of it.
 | **Family tree** | Who is related to whom. Optional — import GEDCOM, or build from tagged faces. |
 | **Story** | A guided interview: five sections of questions, plus events. |
 | **Summary** | Everything in one place, and three things to make from it. |
+
+![The Collection step: the helfgot folder, a strip of named faces for filtering, and material cards carrying their tags](docs/images/collection.svg)
+
+*Collection, with the Helfgott family's folder connected — the worked example published
+in [`examples/helfgot-open/`](examples/helfgot-open/).*
+
+![The Story step: five section tabs, and the guided interview with Rachel's answers filled in](docs/images/story.svg)
+
+*The guided interview. An answered question is tinted; a blank one is a legitimate
+answer, because some things no recording can tell you.*
 
 Alongside the wizard: a **Presentation** side with worked examples from the
 organisation's own recorded testimony, a **Catalog** of everything gathered, the
@@ -132,6 +144,8 @@ reviewer's note indistinguishable from the record.
 ---
 
 ## Privacy and what is in this repository
+
+![Where things live: the family's folder and its catalog stay on their machine; only the optional AI actions send text out, and only on a press](docs/images/privacy.svg)
 
 This repository holds the **software**. It does not hold any family's materials.
 

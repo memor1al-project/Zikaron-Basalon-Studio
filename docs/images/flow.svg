@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 150" width="920" height="150" role="img" aria-label="The six steps: Registration, Storage, Collection, Family tree, Story, Summary">
+  <rect width="920" height="150" rx="14" fill="#fbf6ef"/>
+
+  <line x1="78" y1="58" x2="842" y2="58" stroke="#ded5c7" stroke-width="2"/>
+
+  <!-- Registration -->
+  <circle cx="78" cy="58" r="17" fill="#8a3f26"/>
+  <text x="78" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#fbf6ef">1</text>
+  <text x="78" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Registration</text>
+  <text x="78" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">who you are</text>
+
+  <!-- Storage -->
+  <circle cx="231" cy="58" r="17" fill="#8a3f26"/>
+  <text x="231" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#fbf6ef">2</text>
+  <text x="231" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Storage</text>
+  <text x="231" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">connect a folder</text>
+
+  <!-- Collection -->
+  <circle cx="384" cy="58" r="17" fill="#8a3f26"/>
+  <text x="384" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#fbf6ef">3</text>
+  <text x="384" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Collection</text>
+  <text x="384" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">tags, places, faces</text>
+
+  <!-- Family tree (optional) -->
+  <circle cx="537" cy="58" r="17" fill="#fbf6ef" stroke="#c98b6b" stroke-width="2"/>
+  <text x="537" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#8a3f26">4</text>
+  <text x="537" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Family tree</text>
+  <text x="537" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">optional</text>
+
+  <!-- Story -->
+  <circle cx="690" cy="58" r="17" fill="#8a3f26"/>
+  <text x="690" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#fbf6ef">5</text>
+  <text x="690" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Story</text>
+  <text x="690" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">guided interview</text>
+
+  <!-- Summary -->
+  <circle cx="842" cy="58" r="17" fill="#8a3f26"/>
+  <text x="842" y="64" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#fbf6ef">6</text>
+  <text x="842" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" font-weight="700" fill="#3a2c22">Summary</text>
+  <text x="842" y="119" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#6b5d50">booklet · deck · article</text>
+
+  <text x="460" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#6b5d50">a box of photographs → a story that can be told in a living room</text>
+</svg>
