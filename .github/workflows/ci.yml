@@ -86,11 +86,14 @@ jobs:
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
+      # TRANSLATION.md only: catalog.json carries the time it was generated, so
+      # comparing it would fail on every run for no reason. The report is the part a
+      # person reads, and it changes only when the strings do.
       - name: Fail if the catalog is stale
         run: |
-          if ! git diff --quiet -- docs/i18n; then
+          if ! git diff --quiet -- docs/i18n/TRANSLATION.md; then
             echo "docs/i18n is out of date — run: node scripts/i18n-catalog.mjs" >&2
-            git diff --stat -- docs/i18n >&2
+            git diff --stat -- docs/i18n/TRANSLATION.md >&2
             exit 1
           fi
 
